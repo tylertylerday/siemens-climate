@@ -1,0 +1,24 @@
+.app-container {
+  background-image: url('./assets/dottedBackground.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grow-logo {
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.touch-text {
+  color: white;
+  text-align: center;
+  margin: 0;
+}
