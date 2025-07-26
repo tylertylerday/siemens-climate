@@ -12,7 +12,7 @@
 }
 
 .grow-logo {
-  max-width: 300px;
+  width: clamp(300px, 50vw, 900px);
   height: auto;
   margin-bottom: 2rem;
 }
@@ -21,4 +21,47 @@
   color: white;
   text-align: center;
   margin: 0;
+  font-size: clamp(2rem, 3vw, 4rem);
+  font-weight: 500;
+}
+
+.nav-button, .back-button {
+  background-color: rgba(0, 150, 136, 0.9);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 2rem;
+}
+
+.nav-button:hover, .back-button:hover {
+  background-color: rgba(0, 150, 136, 1);
+  transform: translateY(-2px);
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  margin-top: 0;
+}
+
+.siemens-logo {
+  position: absolute;
+  top: 3vw;
+  left: 5vw;
+  width: 10vw;
+  height: auto;
+  z-index: 10;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
