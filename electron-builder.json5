@@ -1,23 +1,31 @@
 // @see - https://www.electron.build/configuration/configuration
 {
   "$schema": "https://raw.githubusercontent.com/electron-userland/electron-builder/master/packages/app-builder-lib/scheme.json",
-  "appId": "YourAppID",
+  "appId": "SiemensClimate",
   "asar": true,
-  "productName": "YourAppName",
+  "productName": "Siemens Climate Week",
   "directories": {
     "output": "release/${version}"
   },
   "files": [
     "dist",
-    "dist-electron"
+    "dist-electron",
+    "buildResources"
   ],
   "mac": {
+    "icon": "dist/icons/icon.icns",
     "target": [
-      "dmg"
+      {
+        "target": "dmg",
+        "arch": [
+          "universal"
+        ]
+      }
     ],
     "artifactName": "${productName}-Mac-${version}-Installer.${ext}"
   },
   "win": {
+    "icon": "dist/icons/icon.ico",
     "target": [
       {
         "target": "nsis",

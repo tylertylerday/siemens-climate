@@ -1,13 +1,15 @@
 {
   "name": "siemens-climate",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && electron-builder",
+    "build": "vite build && electron-builder -mw",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build-mac": "electron-builder build --mac",
+    "build-win": "electron-builder build --win"
   },
   "dependencies": {
     "react": "^18.2.0",
