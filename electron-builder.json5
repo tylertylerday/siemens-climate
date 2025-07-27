@@ -5,15 +5,15 @@
   "asar": true,
   "productName": "Siemens Climate Week",
   "directories": {
-    "output": "release/${version}"
+    "output": "release/${version}",
+    "buildResources": "buildResources"
   },
   "files": [
     "dist",
-    "dist-electron",
-    "buildResources"
+    "dist-electron"
   ],
   "mac": {
-    "icon": "dist/icons/icon.icns",
+    "icon": "icon.icns",
     "target": [
       {
         "target": "dmg",
@@ -25,7 +25,7 @@
     "artifactName": "${productName}-Mac-${version}-Installer.${ext}"
   },
   "win": {
-    "icon": "dist/icons/icon.ico",
+    "icon": "icon.ico",
     "target": [
       {
         "target": "nsis",
