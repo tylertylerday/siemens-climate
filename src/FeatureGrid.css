@@ -63,3 +63,23 @@
 .grid-home-button:hover {
   transform: translateX(-50%) scale(1.1);
 }
+
+.carousel-toggle-button {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid #03FFB9;
+  border-radius: 8px;
+  padding: 12px 20px;
+  color: #03FFB9;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  z-index: 1000;
+}
+
+.carousel-toggle-button:hover {
+  background: rgba(3, 255, 185, 0.2);
+  transform: scale(1.05);
+}
