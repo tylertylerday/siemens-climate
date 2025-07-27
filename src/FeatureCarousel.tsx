@@ -51,7 +51,7 @@ function FeatureCarousel({ onNavigateHome, onNavigateToProject, gridItems: overr
         <Swiper
           modules={[Navigation, Autoplay]}
           spaceBetween={15}
-          slidesPerView={5}
+          slidesPerView= {5}
           navigation={{
             prevEl: '.carousel-prev',
             nextEl: '.carousel-next',
