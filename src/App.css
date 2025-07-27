@@ -12,7 +12,7 @@
 }
 
 .grow-logo {
-  width: clamp(300px, 50vw, 900px);
+  width: 50vw;
   height: auto;
   margin-bottom: 2rem;
 }
@@ -25,7 +25,8 @@
   font-weight: 500;
 }
 
-.nav-button, .back-button {
+.nav-button,
+.back-button {
   background-color: rgba(0, 150, 136, 0.9);
   color: white;
   border: none;
@@ -38,9 +39,14 @@
   margin-top: 2rem;
 }
 
-.nav-button:hover, .back-button:hover {
+.carousel-toggle-button {
+  font-size: 1vw;
+}
+
+.nav-button:hover,
+.back-button:hover {
   background-color: rgba(0, 150, 136, 1);
-  transform: translateY(-2px);
+  /* transform: translateY(-2px); */
 }
 
 .back-button {

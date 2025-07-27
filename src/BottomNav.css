@@ -1,0 +1,47 @@
+.bottom-navigation {
+  position: fixed;
+  bottom: 2.5vh;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 1.5vw;
+  z-index: 100;
+}
+
+.home-button {
+  width: clamp(60px, 4vw, 150px);
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.home-button:hover {
+  transform: scale(1.1);
+}
+
+.nav-arrow {
+  width: clamp(24px, 2vw, 80px);
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.nav-arrow:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .bottom-navigation {
+    gap: 15px;
+  }
+
+  .home-button {
+    width: 60px;
+  }
+
+  .nav-arrow {
+    width: 45px;
+  }
+}

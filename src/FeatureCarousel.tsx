@@ -4,7 +4,7 @@ import { Navigation, Autoplay } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import './FeatureCarousel.css'
-import homeButton from './assets/homeButton.webp'
+import BottomNav from './BottomNav'
 import gridImage1 from './assets/gridImages/gridImage_1.webp'
 
 interface GridItem {
@@ -35,8 +35,8 @@ function FeatureCarousel({ onNavigateHome, onNavigateToProject, gridItems: overr
   const gridItems = overrideGridItems || customGridItems
 
   const renderedSlides = gridItems.map((item, index) => (
-    <SwiperSlide 
-      key={index} 
+    <SwiperSlide
+      key={index}
       className="carousel-slide"
       style={{ backgroundImage: `url(${item.backgroundImage})` }}
       onClick={() => onNavigateToProject?.(index.toString())}
@@ -47,45 +47,60 @@ function FeatureCarousel({ onNavigateHome, onNavigateToProject, gridItems: overr
 
   return (
     <div className="feature-carousel-container">
-      <div className="carousel-wrapper">
-        <Swiper
-          modules={[Navigation, Autoplay]}
-          spaceBetween={15}
-          slidesPerView= {5}
-          navigation={{
-            prevEl: '.carousel-prev',
-            nextEl: '.carousel-next',
-          }}
-          autoplay={{
-            delay: 4000,
-            stopOnLastSlide: false,
-            disableOnInteraction: false,
-          }}
-          loop={false}
-          className="feature-swiper"
-        >
-          {renderedSlides}
-        </Swiper>
-        
+      <div className="carousel-with-controls">
         <button className="carousel-prev" aria-label="Previous slide">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M15 18L9 12L15 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <svg className="arrowIcon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 18L9 12L15 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </button>
-        
+
+        <div className="carousel-wrapper">
+          <Swiper
+            modules={[Navigation, Autoplay]}
+            spaceBetween={15}
+            slidesPerView={5}
+            navigation={{
+              prevEl: '.carousel-prev',
+              nextEl: '.carousel-next',
+            }}
+            autoplay={{
+              delay: 4000,
+              stopOnLastSlide: false,
+              disableOnInteraction: false,
+            }}
+            loop={false}
+            className="feature-swiper"
+            breakpoints={{
+              300: {
+                slidesPerView: 2,
+                spaceBetween: 5,
+              },
+              640: {
+                slidesPerView: 2,
+                spaceBetween: 5,
+              },
+              768: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+              },
+              1024: {
+                slidesPerView: 5,
+                spaceBetween: 15,
+              },
+            }}
+          >
+            {renderedSlides}
+          </Swiper>
+        </div>
+
         <button className="carousel-next" aria-label="Next slide">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M9 18L15 12L9 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <svg className="arrowIcon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 18L15 12L9 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </button>
       </div>
-      
-      <img 
-        src={homeButton} 
-        alt="Home" 
-        className="carousel-home-button" 
-        onClick={onNavigateHome}
-      />
+
+      <BottomNav onNavigateHome={onNavigateHome} />
     </div>
   )
 }

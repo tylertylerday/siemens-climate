@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './FeatureGrid.css'
-import homeButton from './assets/homeButton.webp'
+import BottomNav from './BottomNav'
 import gridImage1 from './assets/gridImages/gridImage_1.webp'
 import FeatureCarousel from './FeatureCarousel'
 
@@ -72,12 +72,7 @@ function FeatureGrid({ onNavigateHome, onNavigateToProject, gridItems: overrideG
       <div className="feature-grid">
         {renderedGridItems}
       </div>
-      <img 
-        src={homeButton} 
-        alt="Home" 
-        className="grid-home-button" 
-        onClick={onNavigateHome}
-      />
+      <BottomNav onNavigateHome={onNavigateHome} />
     </div>
   )
 }

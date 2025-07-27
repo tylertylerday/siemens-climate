@@ -10,11 +10,19 @@
   overflow: hidden;
 }
 
-.carousel-wrapper {
-  position: relative;
-  width: 85%;
+.carousel-with-controls {
+  display: flex;
+  align-items: center;
+  width: 95%;
   height: 60vh;
+  gap: 20px;
+}
+
+.carousel-wrapper {
+  flex: 1;
+  height: 100%;
   overflow: hidden;
+  margin: 0 3rem;
 }
 
 .feature-swiper {
@@ -55,35 +63,32 @@
 
 .carousel-prev,
 .carousel-next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.6);
-  border: 1px solid #03FFB9;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  padding: 0px;
+  background-color: transparent;
+  font-size: 3rem;
+  /* background: rgba(0, 0, 0, 0.6);
+  border: 1px solid #03FFB9; */
+  /* border-radius: 50%; */
+  width: clamp(50px, 5vw, 150px);
+  height: clamp(50px, 5vw, 150px);
   display: flex;
   justify-content: center;
   align-items: center;
   color: #03FFB9;
   cursor: pointer;
   transition: all 0.2s ease;
-  z-index: 10;
+  flex-shrink: 0;
 }
 
-.carousel-prev {
-  left: 0;
-}
-
-.carousel-next {
-  right: 0;
+.arrowIcon {
+  width: 100%;
+  height: 100%;
 }
 
 .carousel-prev:hover,
 .carousel-next:hover {
-  background: rgba(3, 255, 185, 0.2);
-  transform: scale(1.1);
+  /* background: rgba(3, 255, 185, 0.2);
+  transform: scale(1.1); */
 }
 
 .carousel-prev:disabled,
@@ -92,17 +97,3 @@
   cursor: not-allowed;
 }
 
-.carousel-home-button {
-  position: fixed;
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80px;
-  height: auto;
-  cursor: pointer;
-  transition: transform 0.2s ease;
-}
-
-.carousel-home-button:hover {
-  transform: translateX(-50%) scale(1.1);
-}

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './ProjectDetails.css'
+import BottomNav from './BottomNav'
 
 // =============================================================================
 // ASSET IMPORTS - Replace paths with actual project assets
@@ -61,9 +62,6 @@ export { default as Project9Outcomes } from './assets/dottedBackground.webp'
 
 // Import the exports to use in component
 import {
-  HomeButton,
-  ArrowLeft,
-  ArrowRight,
   DefaultBackground,
   DrinkPakHero, ffHero,
   Project0Overview, Project0Details, Project0Results,
@@ -443,26 +441,12 @@ function ProjectDetails({ projectId, onNavigateHome, onNavigateBack, onNavigateT
           </div>
         </div>
       </div>
-      <div className="bottom-navigation">
-        <img 
-          src={ArrowLeft} 
-          alt="Previous Project" 
-          className="nav-arrow" 
-          onClick={handlePreviousProject}
-        />
-        <img 
-          src={HomeButton} 
-          alt="Home" 
-          className="project-home-button" 
-          onClick={onNavigateHome}
-        />
-        <img 
-          src={ArrowRight} 
-          alt="Next Project" 
-          className="nav-arrow" 
-          onClick={handleNextProject}
-        />
-      </div>
+      <BottomNav 
+        onNavigateHome={onNavigateHome}
+        showNavArrows={true}
+        onPrevious={handlePreviousProject}
+        onNext={handleNextProject}
+      />
     </div>
   )
 }
