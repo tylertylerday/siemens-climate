@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './FeatureGrid.css'
 import BottomNav from './BottomNav'
 import gridImage1 from './assets/gridImages/gridImage_1.webp'
@@ -44,7 +44,7 @@ function FeatureGrid({ onNavigateHome, onNavigateToProject, gridItems: overrideG
         <button className="carousel-toggle-button" onClick={toggleView}>
           Grid View
         </button>
-        <FeatureCarousel 
+        <FeatureCarousel
           onNavigateHome={onNavigateHome}
           onNavigateToProject={onNavigateToProject}
           gridItems={gridItems}
@@ -54,8 +54,8 @@ function FeatureGrid({ onNavigateHome, onNavigateToProject, gridItems: overrideG
   }
 
   const renderedGridItems = gridItems.map((item, index) => (
-    <div 
-      key={index} 
+    <div
+      key={index}
       className="grid-square"
       style={{ backgroundImage: `url(${item.backgroundImage})` }}
       onClick={() => onNavigateToProject?.(index.toString())}

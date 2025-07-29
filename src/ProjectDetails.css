@@ -51,7 +51,7 @@
 
 .project-title-hero {
   position: absolute;
-  bottom: 7vw;
+  top: 7vw;
   left: 5vw;
   color: white;
   font-size: clamp(2rem, 4vw, 4rem);

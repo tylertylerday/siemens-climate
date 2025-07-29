@@ -12,15 +12,15 @@ function App() {
   const renderPage = () => {
     switch (currentPage) {
       case 'featuregrid':
-        return <FeatureGrid 
-          onNavigateHome={() => setCurrentPage('home')} 
+        return <FeatureGrid
+          onNavigateHome={() => setCurrentPage('home')}
           onNavigateToProject={(projectId) => {
             setSelectedProjectId(projectId)
             setCurrentPage('projectdetails')
           }}
         />
       case 'projectdetails':
-        return <ProjectDetails 
+        return <ProjectDetails
           projectId={selectedProjectId}
           onNavigateHome={() => setCurrentPage('home')}
           onNavigateBack={() => setCurrentPage('featuregrid')}
@@ -29,8 +29,8 @@ function App() {
       default:
         return (
           <div className="home-page" onClick={() => setCurrentPage('featuregrid')}>
-            <img src={growLogo} alt="Grow Logo" className="grow-logo" />
-            <h1 className="touch-text">Touch to begin</h1>
+            <img src={growLogo} alt="Grow Logo" className="animate__animated animate__slideInDown grow-logo" />
+            <h1 className="touch-text animate__animated animate__fadeIn animate__delay-1s">Touch to begin</h1>
           </div>
         )
     }
@@ -39,9 +39,9 @@ function App() {
   return (
     <div className="app-container">
       {(currentPage === 'featuregrid' || currentPage === 'projectdetails') && (
-        <img 
-          src={siemensLogo} 
-          alt="Siemens Logo" 
+        <img
+          src={siemensLogo}
+          alt="Siemens Logo"
           className="siemens-logo"
         />
       )}
