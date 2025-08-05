@@ -1,3 +1,54 @@
+@font-face {
+  font-family: 'SiemensSans';
+  src: url('./assets/fonts/SiemensSans/siemenssans-roman-webfont.woff2') format('woff2'),
+    url('./assets/fonts/SiemensSans/siemenssans-roman-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SiemensSans';
+  src: url('./assets/fonts/SiemensSans/siemenssans-bold-webfont.woff2') format('woff2'),
+    url('./assets/fonts/SiemensSans/siemenssans-bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SiemensSans';
+  src: url('./assets/fonts/SiemensSans/siemenssans_prof_roman.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SiemensSans';
+  src: url('./assets/fonts/SiemensSans/siemenssans_prof_bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SiemensSans';
+  src: url('./assets/fonts/SiemensSans/siemenssans_prof_italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SiemensSans';
+  src: url('./assets/fonts/SiemensSans/SiemensSans_Prof_Black.woff2') format('woff2'),
+    url('./assets/fonts/SiemensSans/SiemensSans_Prof_Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   font-family: SiemensSans, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -33,6 +84,10 @@ body {
 h1 {
   font-size: 2.2em;
   line-height: 1.1;
+}
+
+h3 {
+  margin-top: 0px;
 }
 
 button {

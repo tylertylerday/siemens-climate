@@ -54,7 +54,7 @@
   top: 7vw;
   left: 5vw;
   color: white;
-  font-size: clamp(2rem, 4vw, 4rem);
+  font-size: clamp(2rem, 4vw, 6rem);
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   z-index: 5;
@@ -87,19 +87,18 @@
 /* Tab Navigation Styles */
 .tab-navigation {
   display: flex;
-  justify-content: center;
-  gap: 10px;
+  justify-content: space-between;
   padding: 30px 0;
   border-bottom: 1px #424266 solid;
   flex-wrap: wrap;
 }
 
 .tab-button {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0);
   color: white;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
   padding: 12px 24px;
-  font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+  font-size: clamp(0.9rem, 1.5vw, 2.5rem);
   font-weight: 500;
   border-radius: 25px;
   cursor: pointer;
@@ -153,7 +152,7 @@
 
 .content-heading {
   color: #03FFB9;
-  font-size: clamp(1.5rem, 2.5vw, 2.2rem);
+  font-size: clamp(1.5rem, 2.5vw, 3.2rem);
   font-weight: bold;
   margin-bottom: 20px;
   line-height: 1.2;
@@ -161,9 +160,31 @@
 
 .content-paragraph {
   color: white;
-  font-size: clamp(1rem, 1.6vw, 1.2rem);
-  line-height: 1.6;
+  font-size: clamp(1rem, 1.6vw, 2.5rem);
+  line-height: 1.4;
   margin: 0;
+}
+
+.content-paragraph p {
+  margin: 0 0 1em 0;
+}
+
+.content-paragraph p:last-child {
+  margin-bottom: 0;
+}
+
+.content-paragraph ul {
+  margin: 1em 0;
+  padding-left: 1.5em;
+}
+
+.content-paragraph li {
+  margin-bottom: 0.5em;
+  line-height: 1.6;
+}
+
+.content-paragraph li:last-child {
+  margin-bottom: 0;
 }
 
 /* Responsive Design */

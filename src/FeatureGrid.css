@@ -90,7 +90,7 @@
 }
 
 
-.carousel-toggle-button {
+/* .carousel-toggle-button {
   position: fixed;
   top: 30px;
   right: 30px;
@@ -108,7 +108,7 @@
 .carousel-toggle-button:hover {
   background: rgba(3, 255, 185, 0.2);
   transform: scale(1.05);
-}
+} */
 
 /* Responsive Design */
 @media (max-width: 1100px) {
@@ -146,10 +146,10 @@
     gap: 10px;
   }
 
-  .carousel-toggle-button {
+  /* .carousel-toggle-button {
     top: 20px;
     right: 20px;
     padding: 10px 16px;
     font-size: 0.9rem;
-  }
+  } */
 }

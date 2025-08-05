@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import './FeatureGrid.css'
 import BottomNav from './BottomNav'
 import gridImage1 from './assets/gridImages/gridImage_1.webp'
-import FeatureCarousel from './FeatureCarousel'
+// import FeatureCarousel from './FeatureCarousel'
 
 interface GridItem {
   title: string
@@ -18,22 +18,22 @@ interface FeatureGridProps {
 
 // Customize your grid items here
 const customGridItems: GridItem[] = [
-  { title: '44.01', backgroundImage: gridImage1, backText: 'Revolutionary carbon capture technology for sustainable future.' },
-  { title: 'Project Description', backgroundImage: gridImage1, backText: 'Comprehensive project overview and technical specifications.' },
-  { title: 'Blendhub', backgroundImage: gridImage1, backText: 'Advanced blending solutions for industrial applications.' },
-  { title: 'DrinkPAK', backgroundImage: gridImage1, backText: 'Innovative packaging technology for beverage industry.' },
-  { title: 'Jet Zero', backgroundImage: gridImage1, backText: 'Net-zero aviation solutions for sustainable flight.' },
-  { title: 'Siemens Screensaver', backgroundImage: gridImage1, backText: 'Interactive digital display solutions for modern workspaces.' },
-  { title: 'Siemens Xcelerator', backgroundImage: gridImage1, backText: 'Digital business platform accelerating innovation.' },
-  { title: 'Example title', backgroundImage: gridImage1, backText: 'Sample project demonstrating cutting-edge technology.' },
-  { title: 'Vacuumschmelze', backgroundImage: gridImage1, backText: 'Advanced magnetic materials for precision applications.' },
-  { title: 'Another long example', backgroundImage: gridImage1, backText: 'Extended demonstration of comprehensive project capabilities.' }
+  { title: '44.01', backgroundImage: gridImage1, backText: 'Driving breakthrough solutions for carbon removal' },
+  { title: 'Admares', backgroundImage: gridImage1, backText: 'Driving breakthrough solutions for carbon removal' },
+  { title: 'Blendhub', backgroundImage: gridImage1, backText: 'Transforming global food systems for people and planet' },
+  { title: 'Desert Control', backgroundImage: gridImage1, backText: 'Enabling greener agriculture in the world’s driest regions' },
+  { title: 'DrinkPAK', backgroundImage: gridImage1, backText: 'Powering the future of sustainable manufacturing' },
+  { title: 'Jet Zero', backgroundImage: gridImage1, backText: 'Shaping the future of climate-conscious aviation' },
+  { title: 'Spinnova', backgroundImage: gridImage1, backText: 'Revolutionizing the textile industry for a cleaner future ' },
+  { title: 'Vacuumschmelze', backgroundImage: gridImage1, backText: 'Fueling the shift to electric, efficient transportation ' },
+  { title: 'Wayout', backgroundImage: gridImage1, backText: 'Revolutionizing access to clean water everywhere' },
+  { title: 'Siemens for Startups', backgroundImage: gridImage1, backText: 'Accelerating climate innovation around the world' }
 ]
 
 function FeatureGrid({ onNavigateHome, onNavigateToProject, gridItems: overrideGridItems }: FeatureGridProps) {
   // Use override items if provided, otherwise use the customGridItems defined above
   const gridItems = overrideGridItems || customGridItems
-  const [isCarouselView, setIsCarouselView] = useState(false)
+  // const [isCarouselView, setIsCarouselView] = useState(false)
   const [flippedCards, setFlippedCards] = useState<Set<number>>(new Set())
 
   useEffect(() => {
@@ -84,24 +84,24 @@ function FeatureGrid({ onNavigateHome, onNavigateToProject, gridItems: overrideG
     }
   }, [gridItems])
 
-  const toggleView = () => {
-    setIsCarouselView(!isCarouselView)
-  }
+  // const toggleView = () => {
+  //   setIsCarouselView(!isCarouselView)
+  // }
 
-  if (isCarouselView) {
-    return (
-      <>
-        <button className="carousel-toggle-button" onClick={toggleView}>
-          Grid View
-        </button>
-        <FeatureCarousel
-          onNavigateHome={onNavigateHome}
-          onNavigateToProject={onNavigateToProject}
-          gridItems={gridItems}
-        />
-      </>
-    )
-  }
+  // if (isCarouselView) {
+  //   return (
+  //     <>
+  //       <button className="carousel-toggle-button" onClick={toggleView}>
+  //         Grid View
+  //       </button>
+  //       <FeatureCarousel
+  //         onNavigateHome={onNavigateHome}
+  //         onNavigateToProject={onNavigateToProject}
+  //         gridItems={gridItems}
+  //       />
+  //     </>
+  //   )
+  // }
 
   const renderedGridItems = gridItems.map((item, index) => (
     <div
@@ -125,9 +125,9 @@ function FeatureGrid({ onNavigateHome, onNavigateToProject, gridItems: overrideG
 
   return (
     <div className="feature-grid-container">
-      <button className="carousel-toggle-button" onClick={toggleView}>
+      {/* <button className="carousel-toggle-button" onClick={toggleView}>
         Carousel View
-      </button>
+      </button> */}
       <div className="feature-grid">
         {renderedGridItems}
       </div>

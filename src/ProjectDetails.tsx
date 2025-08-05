@@ -13,49 +13,59 @@ export { default as ArrowRight } from './assets/arrowRight.webp'
 export { default as DefaultBackground } from './assets/dottedBackground.webp'
 
 // Project 0 - 44.01
-export { default as ffHero } from './assets/projects/44/44_hero.webp'
+export { default as ffHero } from './assets/heroImages/4401-header-web.webp'
 export { default as Project0Overview } from './assets/dottedBackground.webp'
 export { default as Project0Details } from './assets/dottedBackground.webp'
 export { default as Project0Results } from './assets/dottedBackground.webp'
 
-// Project 1 - Project Description  
+// Project 1 - Admares
+export { default as AdmaresHero } from './assets/heroImages/admares-header-web.webp'
 export { default as Project1About } from './assets/dottedBackground.webp'
 export { default as Project1Process } from './assets/dottedBackground.webp'
 
 // Project 2 - Blendhub
+export { default as BlendhubHero } from './assets/heroImages/blendhub-header-web.webp'
 export { default as Project2Overview } from './assets/dottedBackground.webp'
 export { default as Project2Features } from './assets/dottedBackground.webp'
 export { default as Project2Technology } from './assets/dottedBackground.webp'
 export { default as Project2Impact } from './assets/dottedBackground.webp'
 
-// Project 3 - DrinkPAK
-export { default as DrinkPakHero } from './assets/projects/drinkpak/drinkpakVideo.webm'
-export { default as Project3Overview } from './assets/projects/drinkpak/drinkpak_overview.webp'
-export { default as Project3Partnership } from './assets/dottedBackground.webp'
-export { default as Project3Technologies } from './assets/dottedBackground.webp'
-export { default as Project3Finance } from './assets/dottedBackground.webp'
+// Project 3 - Desert Control
+export { default as DesertControlHero } from './assets/heroImages/desertcontrol-header-web.webp'
+export { default as DesertTab1 } from './assets/projects/desert/desert-tab-1.webp'
+export { default as DesertTab2 } from './assets/projects/desert/desert-tab-2.webp'
+export { default as DesertTab3 } from './assets/projects/desert/desert-tab-4.webp'
+export { default as DesertTab4 } from './assets/projects/desert/desert-tab-4.webp'
 
-// Project 4 - Jet Zero
+// Project 4 - DrinkPAK
+export { default as DrinkPAKHero } from './assets/heroImages/drinkpak-header-web.webp'
 export { default as Project4Mission } from './assets/dottedBackground.webp'
 export { default as Project4Technology } from './assets/dottedBackground.webp'
 
-// Project 5 - Siemens Screensaver
+// Project 5 - Jet Zero
+export { default as JetZeroHero } from './assets/heroImages/jetzero-header-web.webp'
 export { default as Project5Design } from './assets/dottedBackground.webp'
 export { default as Project5Implementation } from './assets/dottedBackground.webp'
 export { default as Project5Impact } from './assets/dottedBackground.webp'
 
-// Project 6 - Siemens Xcelerator
+// Project 6 - Spinnova
+export { default as SpinnovaHero } from './assets/heroImages/spinnova-header-web.webp'
 export { default as Project6Platform } from './assets/dottedBackground.webp'
 export { default as Project6Solutions } from './assets/dottedBackground.webp'
 
-// Project 7 - Example title
+// Project 7 - Vacuumschmelze
+export { default as VacuumHero } from './assets/heroImages/vacuum-header-web.webp'
 export { default as Project7Overview } from './assets/dottedBackground.webp'
 
-// Project 8 - Vacuumschmelze
-export { default as Project8Materials } from './assets/dottedBackground.webp'
-export { default as Project8Applications } from './assets/dottedBackground.webp'
+// Project 8 - Wayout
+export { default as WayoutHero } from './assets/heroImages/wayout-header-web.webp'
+export { default as WayoutTab1 } from './assets/projects/wayout/wayout-tab-1.webp'
+export { default as WayoutTab2 } from './assets/projects/wayout/wayout-tab-2.webp'
+export { default as WayoutTab3 } from './assets/projects/wayout/wayout-tab-3.webp'
+export { default as WayoutTab4 } from './assets/projects/wayout/wayout-tab-4.webp'
 
-// Project 9 - Another long example
+// Project 9 - Siemens for Startups
+export { default as StartupsHero } from './assets/heroImages/startups-header-web.webp'
 export { default as Project9Details } from './assets/dottedBackground.webp'
 export { default as Project9Analysis } from './assets/dottedBackground.webp'
 export { default as Project9Outcomes } from './assets/dottedBackground.webp'
@@ -63,16 +73,16 @@ export { default as Project9Outcomes } from './assets/dottedBackground.webp'
 // Import the exports to use in component
 import {
   DefaultBackground,
-  DrinkPakHero, ffHero,
+  ffHero, AdmaresHero, BlendhubHero, DesertControlHero, DrinkPAKHero, JetZeroHero, SpinnovaHero, VacuumHero, WayoutHero, StartupsHero,
   Project0Overview, Project0Details, Project0Results,
   Project1About, Project1Process,
   Project2Overview, Project2Features, Project2Technology, Project2Impact,
-  Project3Overview, Project3Partnership, Project3Technologies, Project3Finance,
+  DesertTab1, DesertTab2, DesertTab3, DesertTab4,
   Project4Mission, Project4Technology,
   Project5Design, Project5Implementation, Project5Impact,
   Project6Platform, Project6Solutions,
   Project7Overview,
-  Project8Materials, Project8Applications,
+  WayoutTab1, WayoutTab2, WayoutTab3, WayoutTab4,
   Project9Details, Project9Analysis, Project9Outcomes
 } from './ProjectDetails'
 
@@ -97,7 +107,7 @@ function ProjectDetails({ projectId, onNavigateHome, onNavigateBack, onNavigateT
   // =============================================================================
   const getProjectData = (id: string) => {
     const projects: { [key: string]: { title: string; description: string; heroMedia: string; isVideo?: boolean; tabs: TabContent[] } } = {
-      
+
       // -------------------------------------------------------------------------
       // PROJECT 0 - 44.01
       // -------------------------------------------------------------------------
@@ -126,14 +136,14 @@ function ProjectDetails({ projectId, onNavigateHome, onNavigateBack, onNavigateT
           }
         ]
       },
-      
+
       // -------------------------------------------------------------------------
-      // PROJECT 1 - Project Description
+      // PROJECT 1 - Admares
       // -------------------------------------------------------------------------
       '1': {
-        title: 'Project Description',
-        description: 'Project Description Details',
-        heroMedia: DefaultBackground,
+        title: 'Admares',
+        description: 'Admares Project Details',
+        heroMedia: AdmaresHero,
         tabs: [
           {
             tabName: 'About',
@@ -156,7 +166,7 @@ function ProjectDetails({ projectId, onNavigateHome, onNavigateBack, onNavigateT
       '2': {
         title: 'Blendhub',
         description: 'Blendhub Project Details',
-        heroMedia: DefaultBackground,
+        heroMedia: BlendhubHero,
         tabs: [
           {
             tabName: 'Overview',
@@ -186,186 +196,197 @@ function ProjectDetails({ projectId, onNavigateHome, onNavigateBack, onNavigateT
       },
 
       // -------------------------------------------------------------------------
-      // PROJECT 3 - DrinkPAK
+      // PROJECT 3 - Desert Control
       // -------------------------------------------------------------------------
       '3': {
+        title: 'Desert Control',
+        description: 'Desert Control Project Information',
+        heroMedia: DesertControlHero,
+        tabs: [
+          {
+            tabName: 'Who is Desert Control',
+            image: DesertTab1,
+            heading: 'Who is Desert Control',
+            text: 'Desert Control develops solutions to improve soil quality, increasing the ability to retain water and nutrients. By scaling their Liquid Natural Clay (LNC) production system, they create global impact by developing local communities. They have evolved from a startup organization with custom-built prototypes to a system that delivers more output at a lower cost while maintaining precision.'
+          },
+          {
+            tabName: 'Siemens Partnership',
+            image: DesertTab2,
+            heading: 'Siemens Partnership',
+            text: 'Through a modular design using Siemens solutions, Desert Control has been able to build an adaptive production process powered by algorithms for formulation, automation, and analytics. This approach enables efficient mass production of LNC while protecting intellectual property. Field test deployments and productive projects in the USA have refined the technology, optimizing formulations and processes for specific soils & crops.'
+          },
+          {
+            tabName: 'Technologies to Scale',
+            image: DesertTab3,
+            heading: 'Siemens solutions and technologies:',
+            text: '<ul><li>Adaptive production</li><li>Industrial Operations X portfolio, especially Software-defined Automation</li><li>SIMATIC AX</li><li>Industrial Edge</li><li>Virtual Runtime Solutions</li></ul>'
+          },
+          {
+            tabName: 'Benefits',
+            image: DesertTab3,
+            heading: 'Benefits',
+            text: '<ul><li>50% of desert restored for agricultural use</li><li>50% less water in agriculture</li><li>+30 more crop yield</li></ul>'
+          }
+        ]
+      },
+
+      // -------------------------------------------------------------------------
+      // PROJECT 4 - DrinkPAK
+      // -------------------------------------------------------------------------
+      '4': {
         title: 'DrinkPAK',
-        description: 'DrinkPAK Project Information',
-        heroMedia: DrinkPakHero,
-        isVideo: true,
+        description: 'DrinkPAK Project Details',
+        heroMedia: DrinkPAKHero,
         tabs: [
           {
             tabName: 'Overview',
-            image: Project3Overview,
+            image: Project4Mission,
             heading: 'DrinkPAK Overview',
             text: 'Detailed information about DrinkPAK goes here. This innovative packaging solution revolutionizes the beverage industry.'
           },
           {
-            tabName: 'Partnership',
-            image: Project3Partnership,
-            heading: 'Innovation Focus',
-            text: 'Explore the innovative aspects of DrinkPAK and how it addresses industry challenges.'
-          },
-          {
-            tabName: 'Technologies to Scale',
-            image: Project3Technologies,
-            heading: 'Innovation Focus',
-            text: 'Explore the innovative aspects of DrinkPAK and how it addresses industry challenges.'
-          },
-          {
-            tabName: 'Finance Solutions to Scale',
-            image: Project3Finance,
-            heading: 'Innovation Focus',
-            text: 'Explore the innovative aspects of DrinkPAK and how it addresses industry challenges.'
-          }
-        ]
-      },
-      
-      // -------------------------------------------------------------------------
-      // PROJECT 4 - Jet Zero
-      // -------------------------------------------------------------------------
-      '4': {
-        title: 'Jet Zero',
-        description: 'Jet Zero Project Details',
-        heroMedia: DefaultBackground,
-        tabs: [
-          {
-            tabName: 'Mission',
-            image: Project4Mission,
-            heading: 'Jet Zero Mission',
-            text: 'Detailed information about Jet Zero goes here. Learn about our mission to achieve carbon-neutral aviation.'
-          },
-          {
-            tabName: 'Technology',
+            tabName: 'Innovation',
             image: Project4Technology,
-            heading: 'Advanced Technology',
-            text: 'Explore the cutting-edge technologies driving the Jet Zero initiative.'
+            heading: 'Packaging Innovation',
+            text: 'Explore the innovative packaging technologies that power sustainable manufacturing in the beverage industry.'
           }
         ]
       },
 
       // -------------------------------------------------------------------------
-      // PROJECT 5 - Siemens Screensaver
+      // PROJECT 5 - Jet Zero
       // -------------------------------------------------------------------------
       '5': {
-        title: 'Siemens Screensaver',
-        description: 'Siemens Screensaver Project',
-        heroMedia: DefaultBackground,
+        title: 'Jet Zero',
+        description: 'Jet Zero Project',
+        heroMedia: JetZeroHero,
         tabs: [
           {
-            tabName: 'Design',
+            tabName: 'Mission',
             image: Project5Design,
-            heading: 'Design Concept',
-            text: 'Detailed information about Siemens Screensaver goes here. Discover the design philosophy and visual concepts.'
+            heading: 'Jet Zero Mission',
+            text: 'Detailed information about Jet Zero goes here. Learn about our mission to shape the future of climate-conscious aviation.'
           },
           {
-            tabName: 'Implementation',
+            tabName: 'Technology',
             image: Project5Implementation,
-            heading: 'Technical Implementation',
-            text: 'Learn about the technical implementation and deployment of the screensaver system.'
+            heading: 'Aviation Technology',
+            text: 'Explore the cutting-edge technologies driving the Jet Zero initiative for sustainable aviation.'
           },
           {
             tabName: 'Impact',
             image: Project5Impact,
-            heading: 'Brand Impact',
-            text: 'Understand the brand impact and user engagement metrics of the screensaver.'
+            heading: 'Climate Impact',
+            text: 'Understand the environmental impact and climate benefits of zero-emission aviation solutions.'
           }
         ]
       },
 
       // -------------------------------------------------------------------------
-      // PROJECT 6 - Siemens Xcelerator
+      // PROJECT 6 - Spinnova
       // -------------------------------------------------------------------------
       '6': {
-        title: 'Siemens Xcelerator',
-        description: 'Siemens Xcelerator Platform',
-        heroMedia: DefaultBackground,
+        title: 'Spinnova',
+        description: 'Spinnova Platform',
+        heroMedia: SpinnovaHero,
         tabs: [
           {
-            tabName: 'Platform',
+            tabName: 'Innovation',
             image: Project6Platform,
-            heading: 'Xcelerator Platform',
-            text: 'Detailed information about Siemens Xcelerator goes here. Explore the comprehensive digital business platform.'
+            heading: 'Textile Innovation',
+            text: '<p>Spinnova is revolutionizing the textile industry with breakthrough innovations:</p><ul><li>Creates textile fibers from cellulose without harmful chemicals</li><li>Eliminates microplastics in textile production</li><li>Reduces water consumption by up to 99%</li><li>Provides carbon-neutral fiber production</li><li>Offers sustainable alternative to cotton and synthetic fibers</li></ul>'
           },
           {
-            tabName: 'Solutions',
+            tabName: 'Technology',
             image: Project6Solutions,
-            heading: 'Digital Solutions',
-            text: 'Discover the range of digital solutions and services available on the Xcelerator platform.'
+            heading: 'Sustainable Technology',
+            text: '<p>Spinnova\'s revolutionary manufacturing process transforms wood-based cellulose into high-quality textile fibers.</p><p>Key technological advantages:</p><ul><li>No dissolving chemicals required</li><li>Mechanical process using only water and wood cellulose</li><li>Closed-loop production system</li><li>Compatible with existing textile machinery</li><li>Scalable industrial production methods</li></ul>'
           }
         ]
       },
 
       // -------------------------------------------------------------------------
-      // PROJECT 7 - Example title
+      // PROJECT 7 - Vacuumschmelze
       // -------------------------------------------------------------------------
       '7': {
-        title: 'Example title',
-        description: 'Example Project Details',
-        heroMedia: DefaultBackground,
-        tabs: [
-          {
-            tabName: 'Overview',
-            image: Project7Overview,
-            heading: 'Example Overview',
-            text: 'Detailed information about this example project goes here. This serves as a template for new projects.'
-          }
-        ]
-      },
-
-      // -------------------------------------------------------------------------
-      // PROJECT 8 - Vacuumschmelze
-      // -------------------------------------------------------------------------
-      '8': {
         title: 'Vacuumschmelze',
-        description: 'Vacuumschmelze Project',
-        heroMedia: DefaultBackground,
+        description: 'Vacuumschmelze Project Details',
+        heroMedia: VacuumHero,
         tabs: [
           {
             tabName: 'Materials',
-            image: Project8Materials,
+            image: Project7Overview,
             heading: 'Advanced Materials',
-            text: 'Detailed information about Vacuumschmelze goes here. Explore advanced magnetic materials and solutions.'
-          },
-          {
-            tabName: 'Applications',
-            image: Project8Applications,
-            heading: 'Industry Applications',
-            text: 'Learn about the various industry applications and use cases for Vacuumschmelze materials.'
+            text: 'Detailed information about Vacuumschmelze goes here. Fueling the shift to electric, efficient transportation with advanced magnetic materials.'
           }
         ]
       },
 
       // -------------------------------------------------------------------------
-      // PROJECT 9 - Another long example
+      // PROJECT 8 - Wayout
       // -------------------------------------------------------------------------
-      '9': {
-        title: 'Another long example',
-        description: 'Long Example Project',
-        heroMedia: DefaultBackground,
+      '8': {
+        title: 'Wayout',
+        description: 'Wayout Project',
+        heroMedia: WayoutHero,
         tabs: [
           {
-            tabName: 'Details',
+            tabName: 'Who is Wayout?',
+            image: WayoutTab1,
+            heading: 'Who is Wayout',
+            text: 'Wayout International, a start-up originally from Sweden, provides water production systems (POD) that can convert any source of water into safe and healthy drinking water. This sustainable solution enhances water accessibility while eliminating chemical treatments and minimizing plastic waste'
+          },
+          {
+            tabName: 'Siemens Partnership',
+            image: WayoutTab2,
+            heading: 'Siemens Partnership',
+            text: 'Embedded in Wayout’s philosophy is the drive to contribute to a more sustainable world. Powered by the Digital Twin, real-time monitoring and control data enable Wayout to ensure continuous improvements. They show how any company – no matter the size – can benefit from digitalization and become a sustainable Digital Enterprise.'
+          },
+          {
+            tabName: 'Technologies to Scale',
+            image: WayoutTab3,
+            heading: 'Technologies to Scale',
+            text: '<ul><li>Insights Hub Production Copilot</li><li>Industrial Edge</li><li>WinCC Unified</li><li>TIA Portal</li><li>HMI</li><li>S7 controllers</li><li>SiGreen</li></ul>'
+          },
+          {
+            tabName: 'Benefits',
+            image: WayoutTab4,
+            heading: 'Water Technology',
+            text: '<ul><li>22,000 liters of mineral water can be produced per day</li><li>16mn single use plastic bottles per year</li><li>100% self-sufficient and circular</li></ul>'
+          }
+        ]
+      },
+
+      // -------------------------------------------------------------------------
+      // PROJECT 9 - Siemens for Startups
+      // -------------------------------------------------------------------------
+      '9': {
+        title: 'Siemens for Startups',
+        description: 'Siemens for Startups Project',
+        heroMedia: StartupsHero,
+        tabs: [
+          {
+            tabName: 'Mission',
             image: Project9Details,
-            heading: 'Detailed Information',
-            text: 'Detailed information about this long example project goes here. This demonstrates how longer project names are handled.'
+            heading: 'Startup Mission',
+            text: 'Detailed information about Siemens for Startups goes here. Accelerating climate innovation around the world through strategic partnerships.'
           },
           {
-            tabName: 'Analysis',
+            tabName: 'Innovation',
             image: Project9Analysis,
-            heading: 'Project Analysis',
-            text: 'In-depth analysis and insights from this long example project.'
+            heading: 'Climate Innovation',
+            text: 'Explore how Siemens for Startups accelerates breakthrough climate technologies and sustainable solutions.'
           },
           {
-            tabName: 'Outcomes',
+            tabName: 'Impact',
             image: Project9Outcomes,
-            heading: 'Project Outcomes',
-            text: 'Final outcomes and deliverables from this comprehensive project example.'
+            heading: 'Global Impact',
+            text: 'Discover the global impact and success stories from startups partnering with Siemens for climate innovation.'
           }
         ]
       }
     }
-    
+
     return projects[id] || { title: 'Unknown Project', description: 'Project not found', heroMedia: DefaultBackground, tabs: [{ tabName: 'Info', image: DefaultBackground, heading: 'No Information', text: 'No details available.' }] }
   }
 
@@ -375,7 +396,7 @@ function ProjectDetails({ projectId, onNavigateHome, onNavigateBack, onNavigateT
   // Navigation functions for cycling through projects
   const currentProjectIndex = parseInt(projectId)
   const totalProjects = 10 // We have projects 0-9
-  
+
   const handlePreviousProject = () => {
     const prevIndex = currentProjectIndex === 0 ? totalProjects - 1 : currentProjectIndex - 1
     onNavigateToProject?.(prevIndex.toString())
@@ -390,18 +411,18 @@ function ProjectDetails({ projectId, onNavigateHome, onNavigateBack, onNavigateT
     <div className="project-details-container">
       <div className="hero-section">
         {project.isVideo ? (
-          <video 
+          <video
             className="hero-video"
-            autoPlay 
-            loop 
-            muted 
+            autoPlay
+            loop
+            muted
             playsInline
           >
             <source src={project.heroMedia} type="video/webm" />
             Your browser does not support the video tag.
           </video>
         ) : (
-          <div 
+          <div
             className="hero-image"
             style={{ backgroundImage: `url(${project.heroMedia})` }}
           />
@@ -410,7 +431,7 @@ function ProjectDetails({ projectId, onNavigateHome, onNavigateBack, onNavigateT
         <h1 className="project-title-hero">{project.title}</h1>
       </div>
       <div className="project-details-content">
-        
+
         {/* Tab Navigation */}
         <div className="tab-navigation">
           {project.tabs.map((tab, index) => (
@@ -428,20 +449,23 @@ function ProjectDetails({ projectId, onNavigateHome, onNavigateBack, onNavigateT
         <div className="tab-content">
           <div className="content-columns">
             <div className="content-image">
-              <img 
-                src={project.tabs[activeTab].image} 
+              <img
+                src={project.tabs[activeTab].image}
                 alt={project.tabs[activeTab].heading}
                 className="tab-image"
               />
             </div>
             <div className="content-text">
               <h3 className="content-heading">{project.tabs[activeTab].heading}</h3>
-              <p className="content-paragraph">{project.tabs[activeTab].text}</p>
+              <div
+                className="content-paragraph"
+                dangerouslySetInnerHTML={{ __html: project.tabs[activeTab].text }}
+              />
             </div>
           </div>
         </div>
       </div>
-      <BottomNav 
+      <BottomNav
         onNavigateHome={onNavigateHome}
         showNavArrows={true}
         onPrevious={handlePreviousProject}
