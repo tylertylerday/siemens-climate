@@ -1,14 +1,33 @@
 .app-container {
-  background-image: url('./assets/dottedBackground.webp');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   min-height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.app-container::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: url('./assets/background-video.webm') center center;
+  background-size: cover;
+}
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .grow-logo {

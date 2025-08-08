@@ -131,7 +131,7 @@ function FeatureGrid({ onNavigateHome, onNavigateToProject, gridItems: overrideG
       <div className="feature-grid">
         {renderedGridItems}
       </div>
-      <BottomNav onNavigateHome={onNavigateHome} />
+      <BottomNav onNavigateHome={onNavigateHome} showHomeButton={false} />
     </div>
   )
 }

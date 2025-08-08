@@ -2,11 +2,12 @@ import { useState } from 'react'
 import './App.css'
 import growLogo from './assets/growLogo.webp'
 import siemensLogo from './assets/siemensLogo.webp'
+import backgroundVideo from './assets/background-video.webm'
 import FeatureGrid from './FeatureGrid'
 import ProjectDetails from './ProjectDetails'
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('home')
+  const [currentPage, setCurrentPage] = useState('featuregrid')
   const [selectedProjectId, setSelectedProjectId] = useState('')
 
   const renderPage = () => {
@@ -22,7 +23,7 @@ function App() {
       case 'projectdetails':
         return <ProjectDetails
           projectId={selectedProjectId}
-          onNavigateHome={() => setCurrentPage('home')}
+          onNavigateHome={() => setCurrentPage('featuregrid')}
           onNavigateBack={() => setCurrentPage('featuregrid')}
           onNavigateToProject={(projectId) => setSelectedProjectId(projectId)}
         />
@@ -38,6 +39,15 @@ function App() {
 
   return (
     <div className="app-container">
+      <video
+        className="background-video"
+        autoPlay
+        loop
+        muted
+        playsInline
+      >
+        <source src={backgroundVideo} type="video/webm" />
+      </video>
       {(currentPage === 'featuregrid' || currentPage === 'projectdetails') && (
         <img
           src={siemensLogo}

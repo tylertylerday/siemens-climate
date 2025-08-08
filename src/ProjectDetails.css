@@ -102,7 +102,7 @@
   font-weight: 500;
   border-radius: 25px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  /* transition: all 0.3s ease; */
   white-space: nowrap;
   min-width: 100px;
 }
@@ -117,7 +117,7 @@
   background-color: #03FFB9;
   color: black;
   border-color: #03FFB9;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* Tab Content Styles */

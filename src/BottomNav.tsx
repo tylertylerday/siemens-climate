@@ -10,6 +10,7 @@ interface BottomNavProps {
   onPrevious?: () => void
   onNext?: () => void
   className?: string
+  showHomeButton?: boolean
 }
 
 function BottomNav({
@@ -17,7 +18,8 @@ function BottomNav({
   showNavArrows = false,
   onPrevious,
   onNext,
-  className = ''
+  className = '',
+  showHomeButton = true
 }: BottomNavProps) {
   return (
     <div className={`bottom-navigation ${className}`}>
@@ -30,12 +32,14 @@ function BottomNav({
         />
       )}
 
-      <img
-        src={homeButton}
-        alt="Home"
-        className="home-button animate__animated animate__fadeInUp"
-        onClick={onNavigateHome}
-      />
+      {showHomeButton && (
+        <img
+          src={homeButton}
+          alt="Home"
+          className="home-button animate__animated animate__fadeInUp"
+          onClick={onNavigateHome}
+        />
+      )}
 
       {showNavArrows && onNext && (
         <img
