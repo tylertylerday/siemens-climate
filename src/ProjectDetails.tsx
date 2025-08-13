@@ -130,14 +130,14 @@ function ProjectDetails({ projectId, onNavigateHome, onNavigateBack, onNavigateT
           {
             tabName: 'What is 44.01',
             image: FfTab1,
-            heading: 'What is 44.01',
-            text: 'Safe, scalable & permanent carbon removal. 44.01 eliminates CO2 by turning it into rock. The company\’s pioneering technology accelerates the natural process of CO2 mineralization to remove captured CO2 permanently in less than twelve months. 44.01 takes CO2 captured directly from the air, or from hard-to-abate industrial processes, helping decarbonize vital industries and ultimately return the atmosphere to sustainable levels of CO2.'
+            heading: 'Safe, scalable & permanent carbon removal.',
+            text: '44.01 eliminates CO2 by turning it into rock. The company’s pioneering technology accelerates the natural process of CO2 mineralization to remove captured CO2 permanently in less than twelve months. 44.01 takes CO2 captured directly from the air, or from hard-to-abate industrial processes, helping decarbonize vital industries and ultimately return the atmosphere to sustainable levels of CO2.'
           },
           {
             tabName: 'Siemens Partnership',
             image: FfTab2,
             heading: 'Siemens Partnership',
-            text: 'Siemens Financial Services (SFS) is a strategic investor in 44.01 to support the scaling of the early-stage technology and business. SFS is actively collaborating with 44.01 to find opportunities to leverage Siemens’ experienced ecosystem, including our technologies and our global network.'
+            text: 'Siemens Financial Services (SFS) is a strategic investor in 44.01 to support the scaling of the early-stage technology and business. SFS is actively collaborating with 44.01 to find opportunities to leverage Siemens’ experienced ecosystem, including our technologies and our global network.  '
           },
           {
             tabName: 'Technologies to Scale',
@@ -165,8 +165,8 @@ function ProjectDetails({ projectId, onNavigateHome, onNavigateBack, onNavigateT
           {
             tabName: 'Who is Admares',
             image: AdmaresTab1,
-            heading: 'About This Project',
-            text: 'Admares is redefining homebuilding by introducing the worlds first fully digitalized, industrialized, and productized approach to construction. Their automated and robotized manufacturing processes enable entire buildings to be mass-produced in a factory with unparalleled speed, precision, and quality. Their buildings are designed to be operating with minimal carbon emissions and are equipped with sensors allowing them to monitor and perform analytics.'
+            heading: 'Who is ADMARES',
+            text: 'Admares is addressing major construction challenges like the global shortage of affordable homes and the need for skilled manual labor. The companysis redefining homebuilding by introducing the world\'s first fully digitalized, industrialized, and productized approach to construction. Their automated and robotized manufacturing processes will enabling entire buildings to be mass-produced in a factory with unparalleled speed, precision, and quality. Their buildings are designed to perate with minimal carbon emissions and are equipped with sensors allowing them to monitor and perform analytics.'
           },
           {
             tabName: 'Siemens Partnership',
@@ -178,13 +178,13 @@ function ProjectDetails({ projectId, onNavigateHome, onNavigateBack, onNavigateT
             tabName: 'Technologies to Scale',
             image: AdmaresTab3,
             heading: 'Technologies to Scale',
-            text: '<ul><li>Insights Hub Production Copilot</li><li>Industrial Edge</li><li>WinCC Unified</li><li>TIA Portal</li><li>HMI</li><li>S7 controllers</li><li>SiGreen</li></ul>'
+            text: '<ul><li>Design Software: NX, Teamcenter, Simcenter</li><li>Production planning and execution: Tecnomatix, Opcenter, Simatic, Gateways, energy management, TIA, smart power distribution</li><li>Automation and Controls</li><li>Building operations: Connected buildings, monitoring, sensors, gateways</li></ul>'
           },
           {
             tabName: 'Benefits',
             image: AdmaresTab4,
             heading: 'Benefits',
-            text: '<ul><li>80% less material waste</li><li>75% less CO2 emissions</li><li>Majority of materials recyclable</li><li>Minimal environmental disruption on site</li><li>No traditional construction site</li></ul>'
+            text: '<ul><li>80% less material waste</li><li>75% less CO2 emissions</li><li>Majority of materials recyclable</li><li>Minimal environmental disruption on site</li><li>No traditional construction site</li><li>Carbon-neutral manufacturing</li></ul>'
           }
         ]
       },
@@ -198,28 +198,28 @@ function ProjectDetails({ projectId, onNavigateHome, onNavigateBack, onNavigateT
         heroMedia: BlendhubHero,
         tabs: [
           {
-            tabName: 'Food production close to the crop',
+            tabName: 'Who is Blendhub',
             image: BlendTab1,
-            heading: 'Food production close to the crop',
+            heading: 'Who is Blendhub',
             text: '<p>Who says food production must be centralized? Blendhub is revolutionizing access to nutrition with portable production hubs. These compact, plug & play food and beverage factories are delivered in 40-foot containers and can be deployed in strategic locations or underserved areas.</p><p>With Blendhub it is possible to safely produce powders from locally available foodstuffs for local markets, thereby empowering communities to capture more value from their harvests. The solution actively contributes to a circular economy and fosters long-term economic stability.</p>'
           },
           {
-            tabName: 'Advantages through proven technology',
+            tabName: 'Siemens partnership',
             image: BlendTab2,
-            heading: 'Advantages through proven technology',
-            text: 'Blendhub has employed a Food as a Service model, which includes everything – from deployment of the hub to hiring the staff and all operations and maintenance activities. At the heart of Blendhub are solutions from Siemens – like Totally Integrated Automation (TIA), Opcenter RD&L, and Teamcenter X – which together help ensure accuracy, consistency, and safety in a unique global replication model.'
+            heading: 'Siemens partnership',
+            text: '<p>Blendhub has employed a Food as a Service model, which includes everything – from deployment of the hub to hiring the staff and all operations and maintenance activities. At the heart of Blendhub is technology from Siemens, which is ensuring that the company has the greatest impact possible.</p><p>From its beginnings in 2010, the partnership with Siemens has allowed Blendhub to scale up its concept. Today there are hubs in 6 countries with over 2,000 recipes available. What has made people at Blendhub proudest is the impact their solution is having on empowering local youth and underserved communities through nutrition projects.</p>'
           },
           {
-            tabName: 'Scaling Sustainable Impact in Food and Beverage',
+            tabName: 'Technologies to scale',
             image: BlendTab3,
-            heading: 'Scaling Sustainable Impact in Food and Beverage',
-            text: '<p>Tap new optimization potential in buildings and production facilities as well as in power supply in the food and beverage industry. From research and development to automation, logistics, power supply, and building management, we help you produce high-quality food while also boosting your productivity and sustainability.</p><p>The key is becoming a Digital Enterprise, which can be done at speed and scale with Siemens Xcelerator. This is facilitated by linked and traceable sequences of specific business workflows in the product and production lifecycle that are digitalized and automated, known as Digital Threads.</p>'
+            heading: 'Technologies to scale',
+            text: '<ul><li>Totally Integrated Automation (TIA)</li><li>Opcenter RD&L</li><li>Teamcenter X</li><li>Trusted Traceability</li><li>Senseye</li><li>SIMATIC S7</li></ul>'
           },
           {
-            tabName: 'Making a difference',
+            tabName: 'Benefits',
             image: BlendTab4,
-            heading: 'Making a difference',
-            text: 'From its beginnings in 2010, the partnership with Siemens has allowed Blendhub to scale up its concept. Today there are hubs in 6 countries with over 2,000 recipes available. What has made people at Blendhub proudest is the impact their solution is having on empowering local youth and underserved communities through nutrition projects.'
+            heading: 'Benefits',
+            text: '<ul><li>Eliminates emissions by reducing inefficient shipping steps</li><li>Increase access to needed nutrition in food insecure communities</li><li>Increased efficiency of food production operations</li></ul>'
           }
         ]
       },
@@ -236,7 +236,7 @@ function ProjectDetails({ projectId, onNavigateHome, onNavigateBack, onNavigateT
             tabName: 'Who is Desert Control',
             image: DesertTab1,
             heading: 'Who is Desert Control',
-            text: 'Desert Control develops solutions to improve soil quality, increasing the ability to retain water and nutrients. By scaling their Liquid Natural Clay (LNC) production system, they create global impact by developing local communities. They have evolved from a startup organization with custom-built prototypes to a system that delivers more output at a lower cost while maintaining precision.'
+            text: 'Desert Control is addressing major environmental challenges like desertification, soil degradation, and water scarcity.develops solutions to improve soil quality, increasing the ability to retain water and nutrients. By scaling their Liquid Natural Clay (LNC) production system, they create global impact by developing local communities. They have evolved from a startup organization with custom-built prototypes to a system that delivers more output at a lower cost while maintaining precision.'
           },
           {
             tabName: 'Siemens Partnership',
