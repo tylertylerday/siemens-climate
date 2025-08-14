@@ -1,0 +1,33 @@
+{
+  "projectId": "1",
+  "title": "Admares",
+  "description": "Admares Project Details",
+  "heroMedia": "/assets/heroImages/admares-header-web.webp",
+  "isVideo": false,
+  "tabs": [
+    {
+      "tabName": "Who is Admares",
+      "image": "/assets/projects/admares/admares-tab-1.webp",
+      "heading": "Who is ADMARES",
+      "text": "Admares is addressing major construction challenges like the global shortage of affordable homes and the need for skilled manual labor. The company is redefining homebuilding by introducing the world's first fully digitalized, industrialized, and productized approach to construction. Their automated and robotized manufacturing processes will enable entire buildings to be mass-produced in a factory with unparalleled speed, precision, and quality. Their buildings are designed to operate with minimal carbon emissions and are equipped with sensors allowing them to monitor and perform analytics."
+    },
+    {
+      "tabName": "Siemens Partnership",
+      "image": "/assets/projects/admares/admares-tab-2.webp",
+      "heading": "Siemens Partnership",
+      "text": "<p>With consulting and technology partners like MHP, EDAG and Siemens, Admares has found the right ecosystem to realize their vision of the smart factory for construction.</p> <p>With Siemens Xcelerator technologies for home design, factory planning, production operations as well as operating the smart home once they are built, Siemens is making ADMARES' vision a reality.</p>"
+    },
+    {
+      "tabName": "Technologies to Scale",
+      "image": "/assets/projects/admares/admares-tab-3.webp",
+      "heading": "Technologies to Scale",
+      "text": "<ul><li>Design Software: NX, Teamcenter, Simcenter</li><li>Production planning and execution: Tecnomatix, Opcenter, Simatic, Gateways, energy management, TIA, smart power distribution</li><li>Automation and Controls</li><li>Building operations: Connected buildings, monitoring, sensors, gateways</li></ul>"
+    },
+    {
+      "tabName": "Benefits",
+      "image": "/assets/projects/admares/admares-tab-4.webp",
+      "heading": "Benefits",
+      "text": "<ul><li>80% less material waste</li><li>75% less CO2 emissions</li><li>Majority of materials recyclable</li><li>Minimal environmental disruption on site</li><li>No traditional construction site</li><li>Carbon-neutral manufacturing</li></ul>"
+    }
+  ]
+}

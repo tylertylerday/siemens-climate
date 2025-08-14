@@ -1,0 +1,33 @@
+{
+  "projectId": "4",
+  "title": "DrinkPAK",
+  "description": "DrinkPAK Project Details",
+  "heroMedia": "/assets/heroImages/drinkpak-header-web.webp",
+  "isVideo": false,
+  "tabs": [
+    {
+      "tabName": "Who is DrinkPAK",
+      "image": "/assets/projects/drinkpak/drink-tab-1.webp",
+      "heading": "Who is DrinkPAK",
+      "text": "<p>As the most technologically advanced contract manufacturer of canned beverages in the world, DrinkPAK batches, fills, tests, warehouses, and distributes drinks for global brands like Lucky Energy, Poppi, Arizona Iced Tea, and Monster Energy.</p>\n<p>In 2020, DrinkPAK opened its first production and warehousing facility — a 1.4 million square foot space in California — and has since expanded with the construction of its second location in Texas, set to open in 2025, with a third facility expected to launch in late 2026.</p>"
+    },
+    {
+      "tabName": "Partnership with Siemens",
+      "image": "/assets/projects/drinkpak/drink-tab-2.webp",
+      "heading": "Siemens Partnership",
+      "text": "As DrinkPAK expanded its operations with new facilities, they needed state-of-the-art equipment and technology to ensure best-in-class production and warehousing automation. Siemens Financial Services (SFS) supported this growth by providing a $13.2 million leasing solution and worked closely with DrinkPAK’s supplier, E80 Group — a global leader in automated intralogistics solutions for the manufacturing and distribution of consumer goods — to integrate Siemens components into the project."
+    },
+    {
+      "tabName": "Technologies to Scale",
+      "image": "/assets/projects/drinkpak/drink-tab-3.webp",
+      "heading": "Technologies to Scale:",
+      "text": "<ul><li>Industrial Automation and Intralogistics</li><li>Process Controls</li><li>Power Generation and Energy Efficient Operation</li><li>Data-Driven Insights</li></ul>"
+    },
+    {
+      "tabName": "Finance Solutions to Scale",
+      "image": "/assets/projects/drinkpak/drink-tab-4.webp",
+      "heading": "Finance Solutions to Scale",
+      "text": "A $13.2 million leasing solution, DrinkPAK was able to invest in state-of-the-art equipment and automation technology without tying up critical capital — enabling them to scale production capacity while preserving cash flow for further growth."
+    }
+  ]
+}

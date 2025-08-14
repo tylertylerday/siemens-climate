@@ -1,0 +1,33 @@
+{
+  "projectId": "8",
+  "title": "Wayout",
+  "description": "Wayout Project",
+  "heroMedia": "/assets/heroImages/wayout-header-web.webp",
+  "isVideo": false,
+  "tabs": [
+    {
+      "tabName": "Who is Wayout?",
+      "image": "/assets/projects/wayout/wayout-tab-1.webp",
+      "heading": "Who is Wayout",
+      "text": "Wayout International, a start-up originally from Sweden, provides water production systems (POD) that can convert any source of water into safe and healthy drinking water. This sustainable solution enhances water accessibility while eliminating chemical treatments and minimizing plastic waste."
+    },
+    {
+      "tabName": "Siemens Partnership",
+      "image": "/assets/projects/wayout/wayout-tab-2.webp",
+      "heading": "Siemens Partnership",
+      "text": "Embedded in Wayout's philosophy is the drive to contribute to a more sustainable world. Powered by the Digital Twin, real-time monitoring and control data enable Wayout to ensure continuous improvements. They show how any company – no matter the size – can benefit from digitalization and become a sustainable Digital Enterprise."
+    },
+    {
+      "tabName": "Technologies to Scale",
+      "image": "/assets/projects/wayout/wayout-tab-3.webp",
+      "heading": "Technologies to Scale",
+      "text": "<ul><li>Insights Hub Production Copilot</li><li>Industrial Edge</li><li>WinCC Unified</li><li>TIA Portal</li><li>HMI</li><li>S7 controllers</li><li>SiGreen</li></ul>"
+    },
+    {
+      "tabName": "Benefits",
+      "image": "/assets/projects/wayout/wayout-tab-4.webp",
+      "heading": "Water Technology",
+      "text": "<ul><li>22,000 liters of mineral water can be produced per day</li><li>16mn single use plastic bottles per year</li><li>100% self-sufficient and circular</li></ul>"
+    }
+  ]
+}

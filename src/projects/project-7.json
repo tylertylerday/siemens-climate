@@ -1,0 +1,27 @@
+{
+  "projectId": "7",
+  "title": "Vacuumschmelze",
+  "description": "Vacuumschmelze Project Details",
+  "heroMedia": "/assets/heroImages/vacuum-header-web.webp",
+  "isVideo": false,
+  "tabs": [
+    {
+      "tabName": "Who is Vacuumschmelze",
+      "image": "/assets/projects/vacuum/vac-tab-1.webp",
+      "heading": "Who is Vacuumschmelze",
+      "text": "Advancing growth and reducing carbon in advanced magnetic technologies. Vacuumschmelze is a leading manufacturer of advanced magnetic solutions for a wide variety of industries, generating best in class efficient solutions in an environmentally conscious manner. Founded in 1923 and headquartered in Germany, VAC serves critical industries including e-mobility, renewable energy, and smart manufacturing"
+    },
+    {
+      "tabName": "Siemens Partnership",
+      "image": "/assets/projects/vacuum/vac-tab-1.webp",
+      "heading": "Siemens Partnership",
+      "text": "Ara Partners – a global private equity firm that invests in technologies and businesses displace existing, polluting industrial processes – teamed up with Siemens Financial Services (SFS) to obtain flexible growth capital for Vacuumschmelze (VAC) at time of its acquisition. The financing solution helped support VAC's growth initiatives in advanced magnetic technologies for decarbonization applications. VAC can focus resources on growth, providing solutions that enable reduction in greenhouse gas emissions."
+    },
+    {
+      "tabName": "Technologies to Scale",
+      "image": "/assets/projects/vacuum/vac-tab-1.webp",
+      "heading": "Siemens solutions and technologies:",
+      "text": "<ul><li>Automation</li><li>Advanced magnetic technologies</li></ul>"
+    }
+  ]
+}

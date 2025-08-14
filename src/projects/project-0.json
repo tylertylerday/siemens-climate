@@ -1,0 +1,33 @@
+{
+  "projectId": "0",
+  "title": "44.01",
+  "description": "Project 44.01 Description",
+  "heroMedia": "/assets/heroImages/4401-header-web.webp",
+  "isVideo": false,
+  "tabs": [
+    {
+      "tabName": "What is 44.01",
+      "image": "/assets/projects/44/44-tab-1.webp",
+      "heading": "Safe, scalable & permanent carbon removal.",
+      "text": "44.01 eliminates CO2 by turning it into rock. The company's pioneering technology accelerates the natural process of CO2 mineralization to remove captured CO2 permanently in less than twelve months. 44.01 takes CO2 captured directly from the air, or from hard-to-abate industrial processes, helping decarbonize vital industries and ultimately return the atmosphere to sustainable levels of CO2."
+    },
+    {
+      "tabName": "Siemens Partnership",
+      "image": "/assets/projects/44/44-tab-2.webp",
+      "heading": "Siemens Partnership",
+      "text": "Siemens Financial Services (SFS) is a strategic investor in 44.01 to support the scaling of the early-stage technology and business. SFS is actively collaborating with 44.01 to find opportunities to leverage Siemens' experienced ecosystem, including our technologies and our global network."
+    },
+    {
+      "tabName": "Technologies to Scale",
+      "image": "/assets/projects/44/44-tab-3.webp",
+      "heading": "Technologies to Scale",
+      "text": "<ul><li>Industrial AI</li><li>DI Instrumentation solutions</li></ul>"
+    },
+    {
+      "tabName": "Finance Solutions to Scale",
+      "image": "/assets/projects/44/44-tab-4.webp",
+      "heading": "Financial Investment",
+      "text": "Investing in innovative carbon capture technologies such as carbon mineralization underscores SFS's commitment to decarbonization and gives Siemens potential access to removal certificates in the future."
+    }
+  ]
+}

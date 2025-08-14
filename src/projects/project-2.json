@@ -1,0 +1,33 @@
+{
+  "projectId": "2",
+  "title": "Blendhub",
+  "description": "Blendhub Project Details",
+  "heroMedia": "/assets/heroImages/blendhub-header-web.webp",
+  "isVideo": false,
+  "tabs": [
+    {
+      "tabName": "Who is Blendhub",
+      "image": "/assets/projects/blendhub/blend-tab-1.webp",
+      "heading": "Who is Blendhub",
+      "text": "<p>Who says food production must be centralized? Blendhub is revolutionizing access to nutrition with portable production hubs. These compact, plug & play food and beverage factories are delivered in 40-foot containers and can be deployed in strategic locations or underserved areas.</p><p>With Blendhub it is possible to safely produce powders from locally available foodstuffs for local markets, thereby empowering communities to capture more value from their harvests. The solution actively contributes to a circular economy and fosters long-term economic stability.</p>"
+    },
+    {
+      "tabName": "Siemens partnership",
+      "image": "/assets/projects/blendhub/blend-tab-2.webp",
+      "heading": "Siemens partnership",
+      "text": "<p>Blendhub has employed a Food as a Service model, which includes everything – from deployment of the hub to hiring the staff and all operations and maintenance activities. At the heart of Blendhub is technology from Siemens, which is ensuring that the company has the greatest impact possible.</p><p>From its beginnings in 2010, the partnership with Siemens has allowed Blendhub to scale up its concept. Today there are hubs in 6 countries with over 2,000 recipes available. What has made people at Blendhub proudest is the impact their solution is having on empowering local youth and underserved communities through nutrition projects.</p>"
+    },
+    {
+      "tabName": "Technologies to scale",
+      "image": "/assets/projects/blendhub/blend-tab-3.webp",
+      "heading": "Technologies to scale",
+      "text": "<ul><li>Totally Integrated Automation (TIA)</li><li>Opcenter RD&L</li><li>Teamcenter X</li><li>Trusted Traceability</li><li>Senseye</li><li>SIMATIC S7</li></ul>"
+    },
+    {
+      "tabName": "Benefits",
+      "image": "/assets/projects/blendhub/blend-tab-4.webp",
+      "heading": "Benefits",
+      "text": "<ul><li>Eliminates emissions by reducing inefficient shipping steps</li><li>Increase access to needed nutrition in food insecure communities</li><li>Increased efficiency of food production operations</li></ul>"
+    }
+  ]
+}
