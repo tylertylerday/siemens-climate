@@ -7,25 +7,25 @@
   "tabs": [
     {
       "tabName": "What is Siemens Xcelerator for Startups",
-      "image": "/assets/projects/Startups/startup-tab-1.webp",
+      "image": "/assets/projects/Siemens Xcelerator for Startups/startup-tab1.mp4",
       "heading": "What is Siemens Xcelerator for Startups",
       "text": "Siemens Xcelerator for Startups is a program designed to help early-stage engineering and manufacturing startups accelerate their product development by offering access to Siemens software and hardware at reduced cost, along with venture-related services. It aims to streamline collaboration, foster new partnerships, and accelerate innovation for these young companies."
     },
     {
       "tabName": "Benefits",
-      "image": "/assets/projects/Startups/startup-tab-2.webp",
+      "image": "/assets/projects/Siemens Xcelerator for Startups/startup-tab2.mp4",
       "heading": "Benefits",
       "text": "<p>Siemens Xcelerator for Startups is designed to empower young companies with the tools, resources, and connections they need to succeed in today's competitive landscape. Benefits include:</p><ul><li>Faster time to market</li><li>Improved product development</li><li>Reduced development costs</li><li>Enhanced collaboration and innovation</li></ul>"
     },
     {
       "tabName": "Programs Supported",
-      "image": "/assets/projects/Startups/startup-tab-3.webp",
+      "image": "/assets/projects/Siemens Xcelerator for Startups/startup-tab3.mp4",
       "heading": "Programs Supported",
       "text": "<ul><li>Product Designers: Design and development, simulation and product lifecycle management for startups building physical products.</li><li>Software Developers: Tools and resources to build on top of our engineering solutions or an ISV app.</li><li>Technology Collaborators: Opportunity for startups to work with Siemens on dramatic proof of concepts and cutting-edge solutions.</li></ul>"
     },
     {
       "tabName": "Apply Today",
-      "image": "/assets/projects/Startups/startup-tab-4.webp",
+      "image": "/assets/projects/Siemens Xcelerator for Startups/startup-tab4.webp",
       "heading": "Apply Today!",
       "text": "Ready to support your team with scalable design and simulation engineering solutions? Reach out below to learn more about our startups program and begin your organization's application. <strong>Qualified new program members can accelerate their startup journey with up to $5,000 USD in AWS credits.</strong>"
     }

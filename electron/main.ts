@@ -34,6 +34,16 @@ function createWindow() {
     },
   })
 
+  // Hide menu bar when entering fullscreen (for kiosk mode)
+  win.on('enter-full-screen', () => {
+    win?.setMenuBarVisibility(false)
+  })
+
+  // Show menu bar when exiting fullscreen
+  win.on('leave-full-screen', () => {
+    win?.setMenuBarVisibility(true)
+  })
+
   // Test active push message to Renderer-process.
   win.webContents.on('did-finish-load', () => {
     win?.webContents.send('main-process-message', (new Date).toLocaleString())

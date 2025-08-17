@@ -7,21 +7,28 @@
   "tabs": [
     {
       "tabName": "Who is Vacuumschmelze",
-      "image": "/assets/projects/vacuum/vac-tab-1.webp",
+      "image": "/assets/projects/Vacuumschmelze/vacuum-tab1.webp",
       "heading": "Who is Vacuumschmelze",
-      "text": "Advancing growth and reducing carbon in advanced magnetic technologies. Vacuumschmelze is a leading manufacturer of advanced magnetic solutions for a wide variety of industries, generating best in class efficient solutions in an environmentally conscious manner. Founded in 1923 and headquartered in Germany, VAC serves critical industries including e-mobility, renewable energy, and smart manufacturing"
+      "text": "Advancing growth and reducing carbon in advanced magnetic technologies. Vacuumschmelze is a leading manufacturer of advanced magnetic solutions for a wide variety of industries, generating best in class efficient solutions in an environmentally conscious manner. Founded in 1923 and headquartered in Germany, VAC serves critical industries including e-mobility, renewable energy, and smart manufacturing."
     },
     {
       "tabName": "Siemens Partnership",
-      "image": "/assets/projects/vacuum/vac-tab-1.webp",
-      "heading": "Siemens Partnership",
-      "text": "Ara Partners – a global private equity firm that invests in technologies and businesses displace existing, polluting industrial processes – teamed up with Siemens Financial Services (SFS) to obtain flexible growth capital for Vacuumschmelze (VAC) at time of its acquisition. The financing solution helped support VAC's growth initiatives in advanced magnetic technologies for decarbonization applications. VAC can focus resources on growth, providing solutions that enable reduction in greenhouse gas emissions."
+      "image": "/assets/projects/Vacuumschmelze/vacuum-tab1.webp",
+      "heading": "Ara Partners",
+      "text": "A global private equity firm that invests in technologies and businesses displace existing, polluting industrial processes – teamed up with Siemens Financial Services (SFS) to obtain flexible growth capital for Vacuumschmelze (VAC) at time of its acquisition. The financing solution helped support VAC's growth initiatives in advanced magnetic technologies for decarbonization applications. VAC can focus resources on growth, providing solutions that enable reduction in greenhouse gas emissions."
     },
     {
       "tabName": "Technologies to Scale",
-      "image": "/assets/projects/vacuum/vac-tab-1.webp",
-      "heading": "Siemens solutions and technologies:",
+      "image": "/assets/projects/Vacuumschmelze/vacuum-tab1.webp",
+      "heading": "Technologies to Scale",
       "text": "<ul><li>Automation</li><li>Advanced magnetic technologies</li></ul>"
+    },
+    {
+      "tabName": "Benefits",
+      "image": "/assets/projects/Vacuumschmelze/vacuum-tab4.webp",
+      "qrCode": "/assets/qr-placeholder.svg",
+      "heading": "Financial Investment",
+      "text": "Siemens Financial Services (SFS) provided a $22 million loan commitment to VAC, at the time of Ara Partners' acquisition of the company. The financing solution was designed to support VAC's growth initiatives in advanced magnetic technologies for decarbonization applications."
     }
   ]
 }

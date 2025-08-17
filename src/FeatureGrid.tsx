@@ -1,7 +1,17 @@
 import { useState, useEffect } from 'react'
 import './FeatureGrid.css'
 import BottomNav from './BottomNav'
-import gridImage1 from './assets/gridImages/gridImage_1.webp'
+// Grid Images
+import gridImage4401 from './assets/gridImages/4401.webp'
+import gridImageAdmares from './assets/gridImages/admares.webp'
+import gridImageBlendhub from './assets/gridImages/blendhub.webp'
+import gridImageDesertControl from './assets/gridImages/desertcontrol.webp'
+import gridImageDrinkPAK from './assets/gridImages/drinkpak.webp'
+import gridImageJetZero from './assets/gridImages/jetzero.webp'
+import gridImageSpinnova from './assets/gridImages/spinnova.webp'
+import gridImageVacuum from './assets/gridImages/vacuum.webp'
+import gridImageWayout from './assets/gridImages/wayout.webp'
+import gridImageStartups from './assets/gridImages/startups.webp'
 // import FeatureCarousel from './FeatureCarousel'
 
 interface GridItem {
@@ -18,16 +28,16 @@ interface FeatureGridProps {
 
 // Customize your grid items here
 const customGridItems: GridItem[] = [
-  { title: '44.01', backgroundImage: gridImage1, backText: 'Driving breakthrough solutions for carbon removal' },
-  { title: 'Admares', backgroundImage: gridImage1, backText: 'Driving breakthrough solutions for carbon removal' },
-  { title: 'Blendhub', backgroundImage: gridImage1, backText: 'Transforming global food systems for people and planet' },
-  { title: 'Desert Control', backgroundImage: gridImage1, backText: 'Enabling greener agriculture in the world’s driest regions' },
-  { title: 'DrinkPAK', backgroundImage: gridImage1, backText: 'Powering the future of sustainable manufacturing' },
-  { title: 'Jet Zero', backgroundImage: gridImage1, backText: 'Shaping the future of climate-conscious aviation' },
-  { title: 'Spinnova', backgroundImage: gridImage1, backText: 'Revolutionizing the textile industry for a cleaner future ' },
-  { title: 'Vacuumschmelze', backgroundImage: gridImage1, backText: 'Fueling the shift to electric, efficient transportation ' },
-  { title: 'Wayout', backgroundImage: gridImage1, backText: 'Revolutionizing access to clean water everywhere' },
-  { title: 'Siemens for Startups', backgroundImage: gridImage1, backText: 'Accelerating climate innovation around the world' }
+  { title: '44.01', backgroundImage: gridImage4401, backText: 'Driving breakthrough solutions for carbon removal' },
+  { title: 'Admares', backgroundImage: gridImageAdmares, backText: 'Revolutionizing construction through automated manufacturing' },
+  { title: 'Blendhub', backgroundImage: gridImageBlendhub, backText: 'Transforming global food systems for people and planet' },
+  { title: 'Desert Control', backgroundImage: gridImageDesertControl, backText: 'Enabling greener agriculture in the world\'s driest regions' },
+  { title: 'DrinkPAK', backgroundImage: gridImageDrinkPAK, backText: 'Powering the future of sustainable manufacturing' },
+  { title: 'Jet Zero', backgroundImage: gridImageJetZero, backText: 'Shaping the future of climate-conscious aviation' },
+  { title: 'Spinnova', backgroundImage: gridImageSpinnova, backText: 'Revolutionizing the textile industry for a cleaner future' },
+  { title: 'Vacuumschmelze', backgroundImage: gridImageVacuum, backText: 'Fueling the shift to electric, efficient transportation' },
+  { title: 'Wayout', backgroundImage: gridImageWayout, backText: 'Revolutionizing access to clean water everywhere' },
+  { title: 'Siemens for Startups', backgroundImage: gridImageStartups, backText: 'Accelerating climate innovation around the world' }
 ]
 
 function FeatureGrid({ onNavigateHome, onNavigateToProject, gridItems: overrideGridItems }: FeatureGridProps) {

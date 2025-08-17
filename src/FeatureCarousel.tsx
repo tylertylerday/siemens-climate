@@ -4,7 +4,17 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import './FeatureCarousel.css'
 import BottomNav from './BottomNav'
-import gridImage1 from './assets/gridImages/gridImage_1.webp'
+// Grid Images
+import gridImage4401 from './assets/gridImages/4401.webp'
+import gridImageAdmares from './assets/gridImages/admares.webp'
+import gridImageBlendhub from './assets/gridImages/blendhub.webp'
+import gridImageDesertControl from './assets/gridImages/desertcontrol.webp'
+import gridImageDrinkPAK from './assets/gridImages/drinkpak.webp'
+import gridImageJetZero from './assets/gridImages/jetzero.webp'
+import gridImageSpinnova from './assets/gridImages/spinnova.webp'
+import gridImageVacuum from './assets/gridImages/vacuum.webp'
+import gridImageWayout from './assets/gridImages/vacuum-1.webp'
+import gridImageStartups from './assets/gridImages/startups.webp'
 
 interface GridItem {
   title: string
@@ -18,16 +28,16 @@ interface FeatureCarouselProps {
 }
 
 const customGridItems: GridItem[] = [
-  { title: '44.01', backgroundImage: gridImage1 },
-  { title: 'Project Description', backgroundImage: gridImage1 },
-  { title: 'Blendhub', backgroundImage: gridImage1 },
-  { title: 'DrinkPAK', backgroundImage: gridImage1 },
-  { title: 'Jet Zero', backgroundImage: gridImage1 },
-  { title: 'Siemens Screensaver', backgroundImage: gridImage1 },
-  { title: 'Siemens Xcelerator', backgroundImage: gridImage1 },
-  { title: 'Example title', backgroundImage: gridImage1 },
-  { title: 'Vacuumschmelze', backgroundImage: gridImage1 },
-  { title: 'Another long example', backgroundImage: gridImage1 }
+  { title: '44.01', backgroundImage: gridImage4401 },
+  { title: 'Admares', backgroundImage: gridImageAdmares },
+  { title: 'Blendhub', backgroundImage: gridImageBlendhub },
+  { title: 'Desert Control', backgroundImage: gridImageDesertControl },
+  { title: 'DrinkPAK', backgroundImage: gridImageDrinkPAK },
+  { title: 'Jet Zero', backgroundImage: gridImageJetZero },
+  { title: 'Spinnova', backgroundImage: gridImageSpinnova },
+  { title: 'Vacuumschmelze', backgroundImage: gridImageVacuum },
+  { title: 'Wayout', backgroundImage: gridImageWayout },
+  { title: 'Siemens for Startups', backgroundImage: gridImageStartups }
 ]
 
 function FeatureCarousel({ onNavigateHome, onNavigateToProject, gridItems: overrideGridItems }: FeatureCarouselProps) {

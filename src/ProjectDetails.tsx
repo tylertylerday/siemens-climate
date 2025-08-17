@@ -24,46 +24,64 @@ import VacuumHero from './assets/heroImages/vacuum-header-web.webp'
 import WayoutHero from './assets/heroImages/wayout-header-web.webp'
 import StartupsHero from './assets/heroImages/startups-header-web.webp'
 
-// Project Tab Images
-import FfTab1 from './assets/projects/44/44-tab-1.webp'
-import FfTab2 from './assets/projects/44/44-tab-2.webp'
-import FfTab3 from './assets/projects/44/44-tab-3.webp'
-import FfTab4 from './assets/projects/44/44-tab-4.webp'
+// Project 0 - 44.01 Tab Images
+import FfTab1 from './assets/projects/44.01/4401-tab1.webp'
+import FfTab2 from './assets/projects/44.01/4401-tab2.webp'
+import FfTab3 from './assets/projects/44.01/4401-tab3.webp'
+import FfTab4 from './assets/projects/44.01/4401-tab4.webp'
 
-import AdmaresTab1 from './assets/projects/admares/admares-tab-1.webp'
-import AdmaresTab2 from './assets/projects/admares/admares-tab-2.webp'
-import AdmaresTab3 from './assets/projects/admares/admares-tab-3.webp'
-import AdmaresTab4 from './assets/projects/admares/admares-tab-4.webp'
+// Project 1 - Admares Tab Media (mix of video and images)
+import AdmaresTab1Video from './assets/projects/Admares/admares-tab1.mp4'
+import AdmaresTab2 from './assets/projects/Admares/admares-tab2.webp'
+import AdmaresTab3 from './assets/projects/Admares/admares-tab3.webp'
+import AdmaresTab4 from './assets/projects/Admares/admares-tab4.webp'
 
-import BlendTab1 from './assets/projects/blendhub/blend-tab-1.webp'
-import BlendTab2 from './assets/projects/blendhub/blend-tab-2.webp'
-import BlendTab3 from './assets/projects/blendhub/blend-tab-3.webp'
-import BlendTab4 from './assets/projects/blendhub/blend-tab-4.webp'
+// Project 2 - Blendhub Tab Media (mix of video and images)
+import BlendTab1 from './assets/projects/Blendhub/blendhub-tab1.webp'
+import BlendTab2 from './assets/projects/Blendhub/blendhub-tab2.webp'
+import BlendTab3Video from './assets/projects/Blendhub/blendhub-tab3.mp4'
+import BlendTab4 from './assets/projects/Blendhub/blendhub-tab4.webp'
 
-import DesertTab1 from './assets/projects/desert/desert-tab-1.webp'
-import DesertTab2 from './assets/projects/desert/desert-tab-2.webp'
-import DesertTab4 from './assets/projects/desert/desert-tab-4.webp'
+// Project 3 - Desert Control Tab Media (mix of video and images)
+import DesertTab1Video from './assets/projects/Desert Controls/desert-tab1.mp4'
+import DesertTab2 from './assets/projects/Desert Controls/desert-tab2.webp'
+import DesertTab4Video from './assets/projects/Desert Controls/desert-tab4.mp4'
 
-import DrinkTab1 from './assets/projects/drinkpak/drink-tab-1.webp'
-import DrinkTab2 from './assets/projects/drinkpak/drink-tab-2.webp'
-import DrinkTab3 from './assets/projects/drinkpak/drink-tab-3.webp'
-import DrinkTab4 from './assets/projects/drinkpak/drink-tab-4.webp'
+// Project 4 - DrinkPak Tab Images
+import DrinkTab1 from './assets/projects/DrinkPak/drinkpak-tab1.webp'
+import DrinkTab2 from './assets/projects/DrinkPak/drinkpak-tab2.webp'
+import DrinkTab3 from './assets/projects/DrinkPak/drinkpak-tab3.webp'
+import DrinkTab4 from './assets/projects/DrinkPak/drinkpak-tab4.webp'
 
-import JetTab1 from './assets/projects/jetzero/jetzero-tab-1.webp'
+// Project 5 - Jet Zero Tab Media (mix of video and images)
+import JetTab1 from './assets/projects/Jet Zero/jetzero-tab1.webp'
+import JetTab2Video from './assets/projects/Jet Zero/jetzero-tab2.mp4'
 
-import SpinnTab1 from './assets/projects/spinnova/spinn-tab-1.webp'
+// Project 6 - Spinnova Tab Media (mix of video and images)
+import SpinnTab1Video from './assets/projects/Spinnova/spinnova-tab1.mp4'
+import SpinnTab2Video from './assets/projects/Spinnova/spinnova-tab2.mp4'
+import SpinnTab3 from './assets/projects/Spinnova/spinnova-tab3.webp'
+import SpinnTab4 from './assets/projects/Spinnova/spinnova-tab4.webp'
 
-import VacTab1 from './assets/projects/vacuum/vac-tab-1.webp'
+// Project 7 - Vacuumschmelze Tab Images
+import VacTab1 from './assets/projects/Vacuumschmelze/vacuum-tab1.webp'
+import VacTab3 from './assets/projects/Vacuumschmelze/vacuum-tab3.webp'
+import VacTab4 from './assets/projects/Vacuumschmelze/vacuum-tab4.webp'
 
-import WayoutTab1 from './assets/projects/wayout/wayout-tab-1.webp'
-import WayoutTab2 from './assets/projects/wayout/wayout-tab-2.webp'
-import WayoutTab3 from './assets/projects/wayout/wayout-tab-3.webp'
-import WayoutTab4 from './assets/projects/wayout/wayout-tab-4.webp'
+// Project 8 - Wayout International Tab Media (mix of video and images)
+import WayoutTab1Video from './assets/projects/Wayout International/wayout-tab1.mp4'
+import WayoutTab2 from './assets/projects/Wayout International/wayout-tab2.webp'
+import WayoutTab3 from './assets/projects/Wayout International/wayout-tab3.webp'
+import WayoutTab4 from './assets/projects/Wayout International/wayout-tab4.webp'
 
-import StartupTab1 from './assets/projects/Startups/startup-tab-1.webp'
-import StartupTab2 from './assets/projects/Startups/startup-tab-2.webp'
-import StartupTab3 from './assets/projects/Startups/startup-tab-3.webp'
-import StartupTab4 from './assets/projects/Startups/startup-tab-4.webp'
+// Project 9 - Siemens Xcelerator for Startups Tab Media (mix of video and images)
+import StartupTab1Video from './assets/projects/Siemens Xcelerator for Startups/startup-tab1.mp4'
+import StartupTab2Video from './assets/projects/Siemens Xcelerator for Startups/startup-tab2.mp4'
+import StartupTab3Video from './assets/projects/Siemens Xcelerator for Startups/startup-tab3.mp4'
+import StartupTab4 from './assets/projects/Siemens Xcelerator for Startups/startup-tab4.webp'
+
+// QR Code placeholder
+import QRPlaceholder from './assets/qr-placeholder.svg'
 
 // Import the exports to use in component
 import { DefaultBackground } from './ProjectDetails'
@@ -83,54 +101,63 @@ const assetMap: { [key: string]: string } = {
   '/assets/heroImages/startups-header-web.webp': StartupsHero,
   
   // Project 0 - 44.01
-  '/assets/projects/44/44-tab-1.webp': FfTab1,
-  '/assets/projects/44/44-tab-2.webp': FfTab2,
-  '/assets/projects/44/44-tab-3.webp': FfTab3,
-  '/assets/projects/44/44-tab-4.webp': FfTab4,
+  '/assets/projects/44.01/4401-tab1.webp': FfTab1,
+  '/assets/projects/44.01/4401-tab2.webp': FfTab2,
+  '/assets/projects/44.01/4401-tab3.webp': FfTab3,
+  '/assets/projects/44.01/4401-tab4.webp': FfTab4,
   
   // Project 1 - Admares
-  '/assets/projects/admares/admares-tab-1.webp': AdmaresTab1,
-  '/assets/projects/admares/admares-tab-2.webp': AdmaresTab2,
-  '/assets/projects/admares/admares-tab-3.webp': AdmaresTab3,
-  '/assets/projects/admares/admares-tab-4.webp': AdmaresTab4,
+  '/assets/projects/Admares/admares-tab1.mp4': AdmaresTab1Video,
+  '/assets/projects/Admares/admares-tab2.webp': AdmaresTab2,
+  '/assets/projects/Admares/admares-tab3.webp': AdmaresTab3,
+  '/assets/projects/Admares/admares-tab4.webp': AdmaresTab4,
   
   // Project 2 - Blendhub
-  '/assets/projects/blendhub/blend-tab-1.webp': BlendTab1,
-  '/assets/projects/blendhub/blend-tab-2.webp': BlendTab2,
-  '/assets/projects/blendhub/blend-tab-3.webp': BlendTab3,
-  '/assets/projects/blendhub/blend-tab-4.webp': BlendTab4,
+  '/assets/projects/Blendhub/blendhub-tab1.webp': BlendTab1,
+  '/assets/projects/Blendhub/blendhub-tab2.webp': BlendTab2,
+  '/assets/projects/Blendhub/blendhub-tab3.mp4': BlendTab3Video,
+  '/assets/projects/Blendhub/blendhub-tab4.webp': BlendTab4,
   
   // Project 3 - Desert Control
-  '/assets/projects/desert/desert-tab-1.webp': DesertTab1,
-  '/assets/projects/desert/desert-tab-2.webp': DesertTab2,
-  '/assets/projects/desert/desert-tab-4.webp': DesertTab4,
+  '/assets/projects/Desert Controls/desert-tab1.mp4': DesertTab1Video,
+  '/assets/projects/Desert Controls/desert-tab2.webp': DesertTab2,
+  '/assets/projects/Desert Controls/desert-tab4.mp4': DesertTab4Video,
   
-  // Project 4 - DrinkPAK
-  '/assets/projects/drinkpak/drink-tab-1.webp': DrinkTab1,
-  '/assets/projects/drinkpak/drink-tab-2.webp': DrinkTab2,
-  '/assets/projects/drinkpak/drink-tab-3.webp': DrinkTab3,
-  '/assets/projects/drinkpak/drink-tab-4.webp': DrinkTab4,
+  // Project 4 - DrinkPak
+  '/assets/projects/DrinkPak/drinkpak-tab1.webp': DrinkTab1,
+  '/assets/projects/DrinkPak/drinkpak-tab2.webp': DrinkTab2,
+  '/assets/projects/DrinkPak/drinkpak-tab3.webp': DrinkTab3,
+  '/assets/projects/DrinkPak/drinkpak-tab4.webp': DrinkTab4,
   
   // Project 5 - Jet Zero
-  '/assets/projects/jetzero/jetzero-tab-1.webp': JetTab1,
+  '/assets/projects/Jet Zero/jetzero-tab1.webp': JetTab1,
+  '/assets/projects/Jet Zero/jetzero-tab2.mp4': JetTab2Video,
   
   // Project 6 - Spinnova
-  '/assets/projects/spinnova/spinn-tab-1.webp': SpinnTab1,
+  '/assets/projects/Spinnova/spinnova-tab1.mp4': SpinnTab1Video,
+  '/assets/projects/Spinnova/spinnova-tab2.mp4': SpinnTab2Video,
+  '/assets/projects/Spinnova/spinnova-tab3.webp': SpinnTab3,
+  '/assets/projects/Spinnova/spinnova-tab4.webp': SpinnTab4,
   
-  // Project 7 - Vacuum
-  '/assets/projects/vacuum/vac-tab-1.webp': VacTab1,
+  // Project 7 - Vacuumschmelze
+  '/assets/projects/Vacuumschmelze/vacuum-tab1.webp': VacTab1,
+  '/assets/projects/Vacuumschmelze/vacuum-tab3.webp': VacTab3,
+  '/assets/projects/Vacuumschmelze/vacuum-tab4.webp': VacTab4,
   
-  // Project 8 - Wayout
-  '/assets/projects/wayout/wayout-tab-1.webp': WayoutTab1,
-  '/assets/projects/wayout/wayout-tab-2.webp': WayoutTab2,
-  '/assets/projects/wayout/wayout-tab-3.webp': WayoutTab3,
-  '/assets/projects/wayout/wayout-tab-4.webp': WayoutTab4,
+  // Project 8 - Wayout International
+  '/assets/projects/Wayout International/wayout-tab1.mp4': WayoutTab1Video,
+  '/assets/projects/Wayout International/wayout-tab2.webp': WayoutTab2,
+  '/assets/projects/Wayout International/wayout-tab3.webp': WayoutTab3,
+  '/assets/projects/Wayout International/wayout-tab4.webp': WayoutTab4,
   
-  // Project 9 - Startups
-  '/assets/projects/Startups/startup-tab-1.webp': StartupTab1,
-  '/assets/projects/Startups/startup-tab-2.webp': StartupTab2,
-  '/assets/projects/Startups/startup-tab-3.webp': StartupTab3,
-  '/assets/projects/Startups/startup-tab-4.webp': StartupTab4,
+  // Project 9 - Siemens Xcelerator for Startups
+  '/assets/projects/Siemens Xcelerator for Startups/startup-tab1.mp4': StartupTab1Video,
+  '/assets/projects/Siemens Xcelerator for Startups/startup-tab2.mp4': StartupTab2Video,
+  '/assets/projects/Siemens Xcelerator for Startups/startup-tab3.mp4': StartupTab3Video,
+  '/assets/projects/Siemens Xcelerator for Startups/startup-tab4.webp': StartupTab4,
+
+  // QR Code placeholder
+  '/assets/qr-placeholder.svg': QRPlaceholder,
 }
 
 interface TabContent {
@@ -138,6 +165,8 @@ interface TabContent {
   image: string
   heading: string
   text: string
+  isVideo?: boolean
+  qrCode?: string
 }
 
 interface ProjectData {
@@ -169,14 +198,26 @@ function ProjectDetails({ projectId, onNavigateHome, onNavigateToProject }: Proj
       const module = await import(`./projects/project-${id}.json`)
       const rawData = module.default
       
+      // Helper function to determine if a file is a video based on extension
+      const isVideoFile = (path: string): boolean => {
+        const videoExtensions = ['.mp4', '.webm', '.mov']
+        return videoExtensions.some(ext => path.toLowerCase().includes(ext))
+      }
+      
       // Resolve asset paths using assetMap
       const resolvedData: ProjectData = {
         ...rawData,
         heroMedia: assetMap[rawData.heroMedia] || rawData.heroMedia,
-        tabs: rawData.tabs.map((tab: TabContent) => ({
-          ...tab,
-          image: assetMap[tab.image] || tab.image
-        }))
+        tabs: rawData.tabs.map((tab: TabContent) => {
+          const resolvedImagePath = assetMap[tab.image] || tab.image
+          const resolvedQRPath = tab.qrCode ? (assetMap[tab.qrCode] || tab.qrCode) : undefined
+          return {
+            ...tab,
+            image: resolvedImagePath,
+            isVideo: isVideoFile(tab.image),
+            qrCode: resolvedQRPath
+          }
+        })
       }
       
       return resolvedData
@@ -306,11 +347,26 @@ function ProjectDetails({ projectId, onNavigateHome, onNavigateToProject }: Proj
         <div className="tab-content">
           <div className="content-columns">
             <div className="content-image">
-              <img
-                src={projectData.tabs[activeTab].image}
-                alt={projectData.tabs[activeTab].heading}
-                className="tab-image"
-              />
+              {projectData.tabs[activeTab].isVideo ? (
+                <video
+                  key={`video-${projectData.projectId}-${activeTab}-${projectData.tabs[activeTab].image}`}
+                  className="tab-video"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                >
+                  <source src={projectData.tabs[activeTab].image} type="video/mp4" />
+                  <source src={projectData.tabs[activeTab].image} type="video/webm" />
+                  Your browser does not support the video tag.
+                </video>
+              ) : (
+                <img
+                  src={projectData.tabs[activeTab].image}
+                  alt={projectData.tabs[activeTab].heading}
+                  className="tab-image"
+                />
+              )}
             </div>
             <div className="content-text">
               <h3 className="content-heading">{projectData.tabs[activeTab].heading}</h3>
@@ -321,6 +377,16 @@ function ProjectDetails({ projectId, onNavigateHome, onNavigateToProject }: Proj
             </div>
           </div>
         </div>
+        {/* QR Code Display */}
+        {projectData.tabs[activeTab].qrCode && (
+          <div className="qr-code-container">
+            <img
+              src={projectData.tabs[activeTab].qrCode}
+              alt="QR Code"
+              className="qr-code"
+            />
+          </div>
+        )}
       </div>
       <BottomNav
         onNavigateHome={onNavigateHome}

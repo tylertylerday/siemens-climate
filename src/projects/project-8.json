@@ -7,25 +7,26 @@
   "tabs": [
     {
       "tabName": "Who is Wayout?",
-      "image": "/assets/projects/wayout/wayout-tab-1.webp",
+      "image": "/assets/projects/Wayout International/wayout-tab1.mp4",
+      "qrCode": "/assets/qr-placeholder.svg",
       "heading": "Who is Wayout",
       "text": "Wayout International, a start-up originally from Sweden, provides water production systems (POD) that can convert any source of water into safe and healthy drinking water. This sustainable solution enhances water accessibility while eliminating chemical treatments and minimizing plastic waste."
     },
     {
       "tabName": "Siemens Partnership",
-      "image": "/assets/projects/wayout/wayout-tab-2.webp",
+      "image": "/assets/projects/Wayout International/wayout-tab2.webp",
       "heading": "Siemens Partnership",
-      "text": "Embedded in Wayout's philosophy is the drive to contribute to a more sustainable world. Powered by the Digital Twin, real-time monitoring and control data enable Wayout to ensure continuous improvements. They show how any company – no matter the size – can benefit from digitalization and become a sustainable Digital Enterprise."
+      "text": "To scale their operations sustainably, Siemens provided the necessary tools to fully automate the production process, ensuring maximum efficiency, minimizing waste, and reducing production costs, ultimately making clean drinking water more affordable. Siemens cutting-edge technology, including Edge Computing integrated with the Insights Hub cloud platform, powers a Digital Twin dashboard that offers real-time monitoring and control data. This enables optimal performance, troubleshooting, and eco-optimization. The collected data also provides valuable insights for continuous process improvement, including cost reduction strategies."
     },
     {
       "tabName": "Technologies to Scale",
-      "image": "/assets/projects/wayout/wayout-tab-3.webp",
+      "image": "/assets/projects/Wayout International/wayout-tab3.webp",
       "heading": "Technologies to Scale",
-      "text": "<ul><li>Insights Hub Production Copilot</li><li>Industrial Edge</li><li>WinCC Unified</li><li>TIA Portal</li><li>HMI</li><li>S7 controllers</li><li>SiGreen</li></ul>"
+      "text": "<ul><li>Insights Hub Production Copilot</li><li>Industrial Edge</li><li>WinCC Unified</li><li>TIA Portal, HMI, S7 controllers</li><li>Product Carbon footprint management</li></ul>"
     },
     {
       "tabName": "Benefits",
-      "image": "/assets/projects/wayout/wayout-tab-4.webp",
+      "image": "/assets/projects/Wayout International/wayout-tab4.webp",
       "heading": "Water Technology",
       "text": "<ul><li>22,000 liters of mineral water can be produced per day</li><li>16mn single use plastic bottles per year</li><li>100% self-sufficient and circular</li></ul>"
     }

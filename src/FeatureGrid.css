@@ -76,7 +76,7 @@
 .grid-title {
   color: white;
   font-size: clamp(1rem, 1.3vw, 5rem);
-  font-weight: bold;
+  font-weight: 800;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   text-align: center;
 }

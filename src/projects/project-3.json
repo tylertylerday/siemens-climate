@@ -7,25 +7,25 @@
   "tabs": [
     {
       "tabName": "Who is Desert Control",
-      "image": "/assets/projects/desert/desert-tab-1.webp",
+      "image": "/assets/projects/Desert Controls/desert-tab1.mp4",
       "heading": "Who is Desert Control",
       "text": "Desert Control is addressing major environmental challenges like desertification, soil degradation, and water scarcity.develops solutions to improve soil quality, increasing the ability to retain water and nutrients. By scaling their Liquid Natural Clay (LNC) production system, they create global impact by developing local communities. They have evolved from a startup organization with custom-built prototypes to a system that delivers more output at a lower cost while maintaining precision."
     },
     {
       "tabName": "Siemens Partnership",
-      "image": "/assets/projects/desert/desert-tab-2.webp",
+      "image": "/assets/projects/Desert Controls/desert-tab2.webp",
       "heading": "Siemens Partnership",
       "text": "Through a modular design using Siemens solutions, Desert Control has been able to build an adaptive production process powered by algorithms for formulation, automation, and analytics. This approach enables efficient mass production of LNC while protecting intellectual property. Field test deployments and productive projects in the USA have refined the technology, optimizing formulations and processes for specific soils & crops. By co-creating Siemens’ technologies that combine the digital and real worlds, Desert Control is making this transformation scalable and impactful (run it locally, scale it globally)"
     },
     {
       "tabName": "Technologies to Scale",
-      "image": "/assets/projects/desert/desert-tab-4.webp",
+      "image": "/assets/projects/Desert Controls/desert-tab4.mp4",
       "heading": "Siemens solutions and technologies:",
       "text": "<ul><li>Adaptive production</li><li>Industrial Operations X portfolio, especially Software-defined Automation</li><li>SIMATIC AX</li><li>Industrial Edge</li><li>Virtual Runtime Solutions</li></ul>"
     },
     {
       "tabName": "Benefits",
-      "image": "/assets/projects/desert/desert-tab-4.webp",
+      "image": "/assets/projects/Desert Controls/desert-tab4.mp4",
       "heading": "Benefits",
       "text": "<ul><li>50% of desert restored for agricultural use</li><li>-50% less water in agriculture</li><li>+30 more crop yield</li></ul>"
     }
