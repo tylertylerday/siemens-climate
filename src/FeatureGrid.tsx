@@ -138,6 +138,7 @@ function FeatureGrid({ onNavigateHome, onNavigateToProject, gridItems: overrideG
       {/* <button className="carousel-toggle-button" onClick={toggleView}>
         Carousel View
       </button> */}
+      <h1 className="feature-grid-headline">How We Are Supporting Innovators Today</h1>
       <div className="feature-grid">
         {renderedGridItems}
       </div>

@@ -56,6 +56,7 @@ import DrinkTab4 from './assets/projects/DrinkPak/drinkpak-tab4.webp'
 // Project 5 - Jet Zero Tab Media (mix of video and images)
 import JetTab1 from './assets/projects/Jet Zero/jetzero-tab1.webp'
 import JetTab2Video from './assets/projects/Jet Zero/jetzero-tab2.mp4'
+import JetTab3Video from './assets/projects/Jet Zero/jetzero-tab-3.mp4'
 
 // Project 6 - Spinnova Tab Media (mix of video and images)
 import SpinnTab1Video from './assets/projects/Spinnova/spinnova-tab1.mp4'
@@ -132,6 +133,7 @@ const assetMap: { [key: string]: string } = {
   // Project 5 - Jet Zero
   '/assets/projects/Jet Zero/jetzero-tab1.webp': JetTab1,
   '/assets/projects/Jet Zero/jetzero-tab2.mp4': JetTab2Video,
+  '/assets/projects/Jet Zero/jetzero-tab-3.mp4': JetTab3Video,
   
   // Project 6 - Spinnova
   '/assets/projects/Spinnova/spinnova-tab1.mp4': SpinnTab1Video,
