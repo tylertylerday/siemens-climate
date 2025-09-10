@@ -6,31 +6,31 @@
   "isVideo": false,
   "tabs": [
     {
-      "tabName": "What is 44.01",
+      "tabName": "Who is 44.01",
       "image": "/assets/projects/44.01/4401-tab1.webp",
-      "qrCode": "/assets/qr-placeholder.svg",
-      "heading": "Safe, scalable & permanent carbon removal.",
-      "text": "44.01 eliminates CO₂ by turning it into rock. The company's pioneering technology accelerates the natural process of CO₂ mineralization to remove captured CO₂ permanently in less than twelve months. 44.01 takes CO₂ captured directly from the air, or from hard-to-abate industrial processes, helping decarbonize vital industries and ultimately return the atmosphere to sustainable levels of CO₂."
+      "qrCode": "/assets/qrcodes/4401-Tab1.svg",
+      "heading": "Who is 44.01",
+      "text": "<p>Safe, scalable & permanent carbon removal.</p>44.01 eliminates CO₂ by turning it into rock. The company's pioneering technology accelerates the natural process of CO₂ mineralization to remove captured CO₂ permanently in less than twelve months. 44.01 takes CO₂ captured directly from the air, or from hard-to-abate industrial processes, helping decarbonize vital industries and ultimately return the atmosphere to sustainable levels of CO₂."
     },
     {
       "tabName": "Siemens Partnership",
       "image": "/assets/projects/44.01/4401-tab2.webp",
-      "qrCode": "/assets/qr-placeholder.svg",
+      "qrCode": "/assets/qrcodes/4401-Tab2.svg",
       "heading": "Siemens Partnership",
       "text": "Siemens Financial Services (SFS) is a strategic investor in 44.01 to support the scaling of the early-stage technology and business. SFS is actively collaborating with 44.01 to find opportunities to leverage Siemens' experienced ecosystem, including our technologies and our global network."
     },
     {
       "tabName": "Technologies to Scale",
       "image": "/assets/projects/44.01/4401-tab3.webp",
-      "qrCode": "/assets/qr-placeholder.svg",
+      "qrCode": "/assets/qrcodes/4401-Tab3.svg",
       "heading": "Technologies to Scale",
-      "text": "<ul><li>Industrial AI</li><li>DI Instrumentation solutions</li></ul>"
+      "text": "<ul><li>Industrial AI</li><li>DI Instrumentation solutions</li><li>Plant Digital Twin</li><li>Process Control System (PCS7)</li></ul>"
     },
     {
       "tabName": "Finance Solutions to Scale",
       "image": "/assets/projects/44.01/4401-tab4.webp",
-      "qrCode": "/assets/qr-placeholder.svg",
-      "heading": "Financial Investment",
+      "qrCode": "/assets/qrcodes/4401-Tab4.svg",
+      "heading": "Finance Solutions to Scale",
       "text": "Investing in innovative carbon capture technologies such as carbon mineralization underscores SFS's commitment to decarbonization and gives Siemens potential access to removal certificates in the future."
     }
   ]

@@ -32,6 +32,25 @@
   transform: scale(1.1);
 }
 
+.nav-arrow-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.nav-arrow-container:hover {
+  transform: scale(1.1);
+}
+
+.nav-arrow-text {
+  padding:0 .5vw 0 .5vw;
+  font-size: clamp(16px, 1.5vw, 32px);
+  color: white;
+  white-space: nowrap;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .bottom-navigation {

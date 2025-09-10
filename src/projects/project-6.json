@@ -8,26 +8,26 @@
     {
       "tabName": "Who is Spinnova",
       "image": "/assets/projects/Spinnova/spinnova-tab1.mp4",
-      "qrCode": "/assets/qr-placeholder.svg",
-      "heading": "Solving sustainability challenges in the global textile industry",
+      "qrCode": "/assets/qrcodes/Spinnova-Tab1.svg",
+      "heading": "Who is Spinnova",
       "text": "The fashion industry consumes billions of liters of water and is estimated to generate more than 90 million tons of water annually. Spinnova’s technology enables customers to produce textile fiber from a variety of cellulosic raw materials through a mechanical process that mimics how spiders weave their webs. This unique process results in fibers that look and feel similar to natural fibers such as cotton and linen. Multiple global clothing brands such as H&M, Bestseller and Adidas have used SPINNOVA® fibers in their collections."
     },
     {
       "tabName": "Siemens Partnership",
       "image": "/assets/projects/Spinnova/spinnova-tab2.mp4",
-      "heading": "Building a success story based on true partnership at eye level",
+      "heading": "Siemens Partnership",
       "text": "<p>The main challenge to producing their fiber on an industrial scale was the lack of existing technology. Working with Siemens, from the pilot to an industrial demonstration factory, helped overcome the technology hurdles and scale up production faster.</p>\n<p>Spinnova uses automation hardware, instrumentation, drives and motors, as well as simulation software, engineering software and Manufacturing Operations Management (MOM) solutions from Siemens. The OT network was developed in collaboration and is protected by the holistic cybersecurity concept from Siemens to secure production and IP. In addition, Siemens helped orchestrate more than 50 companies, including 10 technology providers, in the construction of the Woodspin factory.</p>"
     },
     {
       "tabName": "Technologies to Scale",
       "image": "/assets/projects/Spinnova/spinnova-tab3.webp",
-      "heading": "Turning wood pulp into fibers with a digital-first approach",
+      "heading": "Technologies to Scale",
       "text": "<ul><li>Opcenter RDnL and Opcenter Execution</li><li>Totally Integrated Automation solutions including TIA Portal, WinCC, Industrial Edge, HMI, PLCSIM Adv and SIMIT, Simatic S7-1500</li><li>Engineering Copilot</li><li>Tecnomatix Plant Simulation (Digital Twin)</li></ul>"
     },
     {
       "tabName": "Benefits",
       "image": "/assets/projects/Spinnova/spinnova-tab4.webp",
-      "heading": "Faster ramp-up from piloting to commercial production",
+      "heading": "Benefits",
       "text": "<ul><li>Scaling a technology that reduces CO₂ emissions by 74% and water usage by 98%, compared to conventional cotton production</li><li>Achieved faster time-to-market while ensuring consistent quality and improving machine uptime with minimized errors</li></ul>"
     }
   ]

@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm uninstall:*)"
+      "Bash(npm uninstall:*)",
+      "Read(/C:\\Users\\bucatini\\Github\\climate-optimized\\siemens-climate\\src/**)",
+      "Read(/C:\\Users\\bucatini\\Github\\climate-optimized\\siemens-climate\\src/**)"
     ],
     "deny": []
   }

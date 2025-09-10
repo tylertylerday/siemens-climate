@@ -20,7 +20,7 @@
 }
 
 .feature-grid-headline {
-  font-size: clamp(1.5rem, 2.5vw, 3.2rem);
+  font-size: clamp(1.5rem, 2.5vw, 4.2rem);
   margin-bottom: 5vh;
 }
 
@@ -92,6 +92,26 @@
   font-weight: bold;
   text-align: center;
   line-height: 1.4;
+}
+
+.screensaver-trigger-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.screensaver-trigger-button:hover {
+  opacity: 0.1;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
 }
 
 

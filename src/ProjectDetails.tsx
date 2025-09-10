@@ -66,6 +66,7 @@ import SpinnTab4 from './assets/projects/Spinnova/spinnova-tab4.webp'
 
 // Project 7 - Vacuumschmelze Tab Images
 import VacTab1 from './assets/projects/Vacuumschmelze/vacuum-tab1.webp'
+import VacTab2 from './assets/projects/Vacuumschmelze/vacuum-tab2.webp'
 import VacTab3 from './assets/projects/Vacuumschmelze/vacuum-tab3.webp'
 import VacTab4 from './assets/projects/Vacuumschmelze/vacuum-tab4.webp'
 
@@ -81,8 +82,16 @@ import StartupTab2Video from './assets/projects/Siemens Xcelerator for Startups/
 import StartupTab3Video from './assets/projects/Siemens Xcelerator for Startups/startup-tab3.mp4'
 import StartupTab4 from './assets/projects/Siemens Xcelerator for Startups/startup-tab4.webp'
 
-// QR Code placeholder
-import QRPlaceholder from './assets/qr-placeholder.svg'
+
+// QR Codes
+import QR4401Tab1 from './assets/qrcodes/4401-Tab1.svg'
+import QR4401Tab2 from './assets/qrcodes/4401-Tab2.svg'
+import QR4401Tab3 from './assets/qrcodes/4401-Tab3.svg'
+import QR4401Tab4 from './assets/qrcodes/4401-Tab4.svg'
+import QRBlendHubTab1 from './assets/qrcodes/BlendHub-Tab1.svg'
+import QRSpinnovaTab1 from './assets/qrcodes/Spinnova-Tab1.svg'
+import QRVacuumTab3 from './assets/qrcodes/Vacuumschmelze-Tab3.svg'
+import QRWayOutTab1 from './assets/qrcodes/WayOut-Tab1.svg'
 
 // Import the exports to use in component
 import { DefaultBackground } from './ProjectDetails'
@@ -143,6 +152,7 @@ const assetMap: { [key: string]: string } = {
   
   // Project 7 - Vacuumschmelze
   '/assets/projects/Vacuumschmelze/vacuum-tab1.webp': VacTab1,
+  '/assets/projects/Vacuumschmelze/vacuum-tab2.webp': VacTab2,
   '/assets/projects/Vacuumschmelze/vacuum-tab3.webp': VacTab3,
   '/assets/projects/Vacuumschmelze/vacuum-tab4.webp': VacTab4,
   
@@ -158,8 +168,16 @@ const assetMap: { [key: string]: string } = {
   '/assets/projects/Siemens Xcelerator for Startups/startup-tab3.mp4': StartupTab3Video,
   '/assets/projects/Siemens Xcelerator for Startups/startup-tab4.webp': StartupTab4,
 
-  // QR Code placeholder
-  '/assets/qr-placeholder.svg': QRPlaceholder,
+  
+  // QR Codes
+  '/assets/qrcodes/4401-Tab1.svg': QR4401Tab1,
+  '/assets/qrcodes/4401-Tab2.svg': QR4401Tab2,
+  '/assets/qrcodes/4401-Tab3.svg': QR4401Tab3,
+  '/assets/qrcodes/4401-Tab4.svg': QR4401Tab4,
+  '/assets/qrcodes/BlendHub-Tab1.svg': QRBlendHubTab1,
+  '/assets/qrcodes/Spinnova-Tab1.svg': QRSpinnovaTab1,
+  '/assets/qrcodes/Vacuumschmelze-Tab3.svg': QRVacuumTab3,
+  '/assets/qrcodes/WayOut-Tab1.svg': QRWayOutTab1,
 }
 
 interface TabContent {

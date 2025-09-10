@@ -8,15 +8,15 @@
     {
       "tabName": "Who is Wayout?",
       "image": "/assets/projects/Wayout International/wayout-tab1.mp4",
-      "qrCode": "/assets/qr-placeholder.svg",
+      "qrCode": "/assets/qrcodes/WayOut-Tab1.svg",
       "heading": "Who is Wayout",
-      "text": "Wayout International, a start-up originally from Sweden, provides water production systems (POD) that can convert any source of water into safe and healthy drinking water. This sustainable solution enhances water accessibility while eliminating chemical treatments and minimizing plastic waste."
+      "text": "Wayout International, a start-up originally from Sweden now headquartered in Dubai, provides water production systems (POD) that can convert any source of water into safe and healthy drinking water. This sustainable solution enhances water accessibility while eliminating chemical treatments and minimizing plastic waste."
     },
     {
       "tabName": "Siemens Partnership",
       "image": "/assets/projects/Wayout International/wayout-tab2.webp",
       "heading": "Siemens Partnership",
-      "text": "To scale their operations sustainably, Siemens provided the necessary tools to fully automate the production process, ensuring maximum efficiency, minimizing waste, and reducing production costs, ultimately making clean drinking water more affordable. Siemens cutting-edge technology, including Edge Computing integrated with the Insights Hub cloud platform, powers a Digital Twin dashboard that offers real-time monitoring and control data. This enables optimal performance, troubleshooting, and eco-optimization. The collected data also provides valuable insights for continuous process improvement, including cost reduction strategies."
+      "text": "To scale their operations sustainably, Siemens provided the necessary tools to fully automate the production process, ensuring maximum efficiency, minimizing waste, and reducing production costs, ultimately making clean drinking water more affordable. Siemens cutting-edge technology, powers a Digital Twin dashboard that offers real-time monitoring and control data. This enables optimal performance, troubleshooting, and eco-optimization. The collected data also provides valuable insights for continuous process improvement, including cost reduction strategies."
     },
     {
       "tabName": "Technologies to Scale",
@@ -27,7 +27,7 @@
     {
       "tabName": "Benefits",
       "image": "/assets/projects/Wayout International/wayout-tab4.webp",
-      "heading": "Water Technology",
+      "heading": "Benefits",
       "text": "<ul><li>22,000 liters of mineral water can be produced per day</li><li>16mn single use plastic bottles per year</li><li>100% self-sufficient and circular</li></ul>"
     }
   ]

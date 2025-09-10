@@ -23,6 +23,7 @@ interface GridItem {
 interface FeatureGridProps {
   onNavigateHome?: () => void
   onNavigateToProject?: (projectId: string) => void
+  onActivateScreensaver?: () => void
   gridItems?: GridItem[]
 }
 
@@ -40,7 +41,7 @@ const customGridItems: GridItem[] = [
   { title: 'Siemens for Startups', backgroundImage: gridImageStartups, backText: 'Accelerating climate innovation around the world' }
 ]
 
-function FeatureGrid({ onNavigateHome, onNavigateToProject, gridItems: overrideGridItems }: FeatureGridProps) {
+function FeatureGrid({ onNavigateHome, onNavigateToProject, onActivateScreensaver, gridItems: overrideGridItems }: FeatureGridProps) {
   // Use override items if provided, otherwise use the customGridItems defined above
   const gridItems = overrideGridItems || customGridItems
   // const [isCarouselView, setIsCarouselView] = useState(false)
@@ -143,6 +144,13 @@ function FeatureGrid({ onNavigateHome, onNavigateToProject, gridItems: overrideG
         {renderedGridItems}
       </div>
       <BottomNav onNavigateHome={onNavigateHome} showHomeButton={false} />
+      {onActivateScreensaver && (
+        <button 
+          className="screensaver-trigger-button"
+          onClick={onActivateScreensaver}
+          aria-label="Activate screensaver"
+        />
+      )}
     </div>
   )
 }

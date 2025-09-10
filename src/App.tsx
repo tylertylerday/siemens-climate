@@ -74,6 +74,7 @@ function App() {
             setSelectedProjectId(projectId)
             setCurrentPage('projectdetails')
           }}
+          onActivateScreensaver={() => setShowScreensaver(true)}
         />
       case 'projectdetails':
         return <ProjectDetails

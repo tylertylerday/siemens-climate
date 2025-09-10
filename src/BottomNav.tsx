@@ -24,30 +24,34 @@ function BottomNav({
   return (
     <div className={`bottom-navigation ${className}`}>
       {showNavArrows && onPrevious && (
-        <img
-          src={ArrowLeft}
-          alt="Previous"
-          className="nav-arrow"
-          onClick={onPrevious}
-        />
+        <div className="nav-arrow-container" onClick={onPrevious}>
+          <span className="nav-arrow-text">Previous Story</span>
+          <img
+            src={ArrowLeft}
+            alt="Previous"
+            className="nav-arrow"
+          />
+        </div>
       )}
 
       {showHomeButton && (
         <img
           src={homeButton}
           alt="Home"
-          className="home-button animate__animated animate__fadeInUp"
+          className="home-button"
           onClick={onNavigateHome}
         />
       )}
 
       {showNavArrows && onNext && (
-        <img
-          src={ArrowRight}
-          alt="Next"
-          className="nav-arrow"
-          onClick={onNext}
-        />
+        <div className="nav-arrow-container" onClick={onNext}>
+          <img
+            src={ArrowRight}
+            alt="Next"
+            className="nav-arrow"
+          />
+          <span className="nav-arrow-text">Next Story</span>
+        </div>
       )}
     </div>
   )
