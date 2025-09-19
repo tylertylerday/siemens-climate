@@ -22,6 +22,9 @@
 .feature-grid-headline {
   font-size: clamp(1.5rem, 2.5vw, 4.2rem);
   margin-bottom: 5vh;
+  color: white;
+  opacity: 1;
+  font-weight: bold;
 }
 
 .grid-square {
